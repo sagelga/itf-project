@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ITF Website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type='text/css'>
+
 </head>
 <body>
+    <!-- Why are you looking at the developer console? Go away. I feels bad.-->
     <!--Start of default navigation bar and theme. Copy these to every files.-->
     <!--Facebook Config Import-->
     <div id="fb-root"></div>
@@ -20,7 +23,7 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    
+
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -60,11 +63,34 @@
                     <button type="submit" class="btn btn-default">Submit</button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <div class="fb-like" data-href="https://www.facebook.com/gooddoba/" data-width="150" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
-                        </ul>
-                    </li>
+                    <!-- Button that triggers popup -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    Launch demo modal
+                    </button>
+                    <!-- Popup -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">
+                                    Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Nothing to look here.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                     <div class="fb-like" data-href="https://www.facebook.com/gooddoba/" data-width="150" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
                 </ul>
-            </div><!-- /.navbar-collapse -->
+            </div>
+            </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
@@ -103,7 +129,7 @@
                     <div class="caption">
                         <h3>This is a nyan cat</h3>
                         <p>While this nyan cat is very good looking, we need to focus on what he can do.</p>
-                        <p><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4" class="btn btn-primary" role="button">Videos</a> <a href="https://www.google.co.th/search?q=nyan+cat&newwindow=1&espv=2&biw=1920&bih=950&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2wsOGxrfPAhWJQI8KHUpiArgQ_AUIBigB#imgrc=1FPtWNbKordMdM%3A" class="btn btn-default" role="button">About</a></p>
+                        <p><a href="http://www.nyan.cat/" class="btn btn-primary" role="button">Videos</a> <a href="https://www.google.co.th/search?q=nyan+cat&newwindow=1&espv=2&biw=1920&bih=950&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2wsOGxrfPAhWJQI8KHUpiArgQ_AUIBigB#imgrc=1FPtWNbKordMdM%3A" class="btn btn-default" role="button">About</a></p>
                     </div>
                 </div>
             </div>
