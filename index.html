@@ -27,21 +27,9 @@
 </head>
 <body>
     <!-- Start of default navigation bar and theme. Copy these to every files. -->
-    <!-- Facebook Config Import -->
-    <div id="fb-root"></div>
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=999226773524788";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <!-- Boostrap Config Import -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Import Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/business-frontpage.css" rel="stylesheet">
 
     <!-- Top Navigation Bar (Locked In) -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -68,19 +56,20 @@
                             <li><a href="https://www.it.kmitl.ac.th/"><img src="./images/web-logo.png" height="15" width="15" alt="GitHub"> IT KMITL</a></li>
                             <li><a href="https://www.facebook.com/ITLadkrabang/"><img src="./images/facebook-logo.png" height="15" width="15" alt="GitHub"> IT KMITL</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a><img src="./images/GitHub-Mark-32px.png" height="18" width="18" alt="GitHub"> <strong>GitHub</strong></a></li>
+                            <li><a><span class="glyphicon glyphicon-globe" aria-hidden="true" alt="Page"></span> <strong>GitHub</strong></a></li>
                             <li><a href="https://sagelga.github.io/ITF_Websites/"> Page Preview</a></li>
                             <li><a href="https://github.com/sagelga/ITF_Websites"> Repositories</a></li>
                         </ul>
-                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Home"></span></a></li>
-                    <li><a href="https://github.com/sagelga/ITF_Websites"><img src="./images/GitHub-Mark-32px.png" height="18" width="18" alt="GitHub"></a></li>
+                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Home"></span> Home</a></li>
+                    <li class="inactive"><a href="https://github.com/sagelga/ITF_Websites"><span class="glyphicon glyphicon-book" aria-hidden="true" alt="GitHub"></span> Git</a></li>
+                    <li class="inactive"><a href="index.html"><span class="glyphicon glyphicon-cog" aria-hidden="true" alt="User"></span> Settings</a></li>
                     </li>
                 </ul>
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
-                    <button type="submit" class="btn btn-default">Search</button>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true" alt="User"></span></button>
                 </form>
 
                 <ul class="navbar-form navbar-right">
@@ -95,8 +84,8 @@
                         </div>
                         <div class="checkbox">
                         </div>
-                        <button type="submit" class="btn btn-default">Sign in</button>
-                        <button type="button" class="btn btn-primary" href="login.html">Sign Up</button>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-log-in" aria-hidden="true" alt="User"></span> Sign in</button>
+                        <button type="button" class="btn btn-primary" href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true" alt="User"></span> Sign Up</button>
                     </form>
                 </ul>
             </div>
@@ -116,122 +105,165 @@
 
     <!--These below lines are independent elements. Do not really need to copy to others.-->
     <!-- Page shortcuts -->
-    <h2 align="center">Hello</h2>
-    <p align="center">See some webpages.</p>
-    <nav aria-label="Page Selection" align="center">
-        <ul class="pagination pagination-sm">
-            <li><a href="#">All</a></li>
-            <li><a href="#">Topic A</a></li>
-            <li><a href="#">Topic B</a></li>
-            <li><a href="#">Topic C</a></li>
-            <li><a href="#">Topic D</a></li>
-            <li><a href="#">Topic E</a></li>
-            <li><a href="#">Topic F</a></li>
-            <li><a href="#">Topic G</a></li>
-            <li><a href="#">Topic H</a></li>
-            <li><a href="#">Topic I</a></li>
-            <li><a href="#">Topic J</a></li>
-        </ul>
-    </nav>
-    <!-- Active-looking loading bar-->
-    <div class="col-xs-6">
-        <h4>Website Progress</h4>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
-                <span class="sr-only">Some achievements</span>
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-6">
-        <h4>Project Deadline</h4>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                <span class="sr-only">Some achievements</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Element inside the page -->
-    <!-- Apple Music iframe -->
-    <iframe src="//tools.applemusic.com/embed/v1/song/1136768508?country=th" height="110px" width="100%" frameborder="0"></iframe>
-
-    <!-- Facebook Pages iframe -->
-    <div class="col-xs-6 col-md-4">
-        <div class="fb-page" data-href="https://www.facebook.com/gooddoba/" data-tabs="timeline" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/gooddoba/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gooddoba/">เก่งมาก จ้าวโดบะ โอ้บะบะ</a></blockquote></div>
-    </div>
-    <div class="col-xs-6 col-md-4">
-        <div class="fb-page" data-href="https://www.facebook.com/gooddoba/" data-tabs="timeline" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/gooddoba/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gooddoba/">เก่งมาก จ้าวโดบะ โอ้บะบะ</a></blockquote></div>
-    </div>
-    <div class="col-xs-6 col-md-4">
-        <div class="fb-page" data-href="https://www.facebook.com/gooddoba/" data-tabs="timeline" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/gooddoba/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gooddoba/">เก่งมาก จ้าวโดบะ โอ้บะบะ</a></blockquote></div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="http://www.nyan.cat/cats/original.gif" alt="Animated nyan cat" class="img-rounded">
-          <div class="caption">
-            <h3>This is a nyan cat</h3>
-            <p>While this nyan cat is very good looking, we need to focus on what he can do.</p>
-            <p><a href="http://www.nyan.cat/" class="btn btn-primary" role="button">Videos</a> <a href="https://www.google.co.th/search?q=nyan+cat&newwindow=1&espv=2&biw=1920&bih=950&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2wsOGxrfPAhWJQI8KHUpiArgQ_AUIBigB#imgrc=1FPtWNbKordMdM%3A" class="btn btn-default" role="button">About</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="http://i.giphy.com/w0CJXS2M44xfW.gif" alt="A picture of an animated cat name Pusheen" class="img-rounded">
-            <div class="caption">
-            <h3>This is also a cat, name Pusheen</h3>
-            <p>This cat doesn't meow. He is mostly use the time to eat a pizza.</p>
-            <p><a href="https://www.youtube.com/watch?v=EXxAJ5mNmfs" class="btn btn-primary" role="button">Videos</a> <a href="https://www.google.co.th/search?q=pusheen+gif&newwindow=1&espv=2&biw=1920&bih=950&source=lnms&tbm=vid&sa=X&ved=0ahUKEwjD-eq_x7fPAhWLLY8KHaG5AooQ_AUICSgC#q=pusheen" class="btn btn-default" role="button">About</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer Navigation Bar (Static) -->
-    <nav class="navbar navbar-default navbar-bottom">
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
         <div class="container">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Business Name or Tagline</h1>
+                </div>
             </div>
         </div>
-    </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>What We Do</h2>
+                <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
+                <p>
+                    <a class="btn btn-default btn-lg" href="#">Call to Action &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <address>
+                    <strong>Start Bootstrap</strong>
+                    <br>3481 Melrose Place
+                    <br>Beverly Hills, CA 90210
+                    <br>
+                </address>
+                <address>
+                    <abbr title="Phone">P:</abbr>(123) 456-7890
+                    <br>
+                    <abbr title="Email">E:</abbr> <a href="mailto:#">name@example.com</a>
+                </address>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-rounded img-responsive img-center" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/415420/8af16768aa6315b7420342ec79395289ba260c6c.jpg" alt="">
+                <h2>Marketing Box #1</h2>
+                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-rounded img-responsive img-center" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/415420/8af16768aa6315b7420342ec79395289ba260c6c.jpg" alt="">
+                <h2>Marketing Box #2</h2>
+                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-rounded img-responsive img-center" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/415420/8af16768aa6315b7420342ec79395289ba260c6c.jpg" alt="">
+                <h2>Marketing Box #3</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+        </div>
+        <hr>
+        <!-- Footer Navigation Bar (Static) -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="container">
+                            <div class="col-lg-3">
+                                <div class="cuadro_intro_hover " style="background-color:#cccccc;">
+                                    <p style="text-align:center; margin-top:20px;">
+                                        <img src="http://placehold.it/500x330" class="img-responsive" alt="">
+                                    </p>
+                                    <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">THIS IS H3</h3>
+                                            <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+                                            <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="cuadro_intro_hover " style="background-color:#cccccc;">
+                                    <p style="text-align:center; margin-top:20px;">
+                                        <img src="http://placehold.it/500x330" class="img-responsive" alt="">
+                                    </p>
+                                    <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">THIS IS H3</h3>
+                                            <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+                                            <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h3>Categories:</h3>
+                                <ul>
+                                    <li><a href=""><i class="fa fa-file"></i> News</a></li>
+                                    <li><a href=""><i class="fa fa-android"></i> Android</a></li>
+                                    <li><a href=""><i class="fa fa-code"></i> C#</a></li>
+                                    <li><a href=""><i class="fa fa-code"></i> Java</a></li>
+                                    <li><a href=""><i class="fa fa-book"></i> Books</a></li>
+                                    <li><a href=""><i class="fa fa-globe"></i> Web</a></li>
+                                    <li><a href=""><i class="fa fa-windows"></i> Windows</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h3>Contact:</h3>
+                                <p>Have a question or feedback? Contact me!</p>
+                                <p><a href="" title="Contact me!"><i class="fa fa-envelope"></i> Contact</a></p>
+                                <h3>Follow:</h3>
+                                <a href="" id="gh" target="_blank" title="Twitter">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-square-o fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x"></i>
+                                    </span>
+                                    Twitter
+                                </a>
+                                <a href="" target="_blank" title="GitHub">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-square-o fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x"></i>
+                                    </span>
+                                    GitHub
+                                </a>
+                            </div>
+                            <br />
+                            <div id="fb-root"></div>
+                            <script>
+                                (function (d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id)) return;
+                                    js = d.createElement(s); js.id = id;
+                                    js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.0";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));</script>
+
+                            <div class="fb-like" data-href="" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="">Tweet</a>
+                            <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+
+                            <div class="g-plusone" data-annotation="inline" data-width="300" data-href=""></div>
+
+                            <!-- Helyezd el ezt a címkét az utolsó +1 gomb címke mögé. -->
+                            <script type="text/javascript">
+                                (function () {
+                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                    po.src = 'https://apis.google.com/js/platform.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                })();
+                            </script>
+                            <br />
+                            <hr>
+                            <p>Copyright © Your Website | <a href="">Privacy Policy</a> | <a href="">Terms of Use</a></p>
+        </footer>
+        <!-- Boostrap Config Import -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
 </body>
 </html>
