@@ -120,7 +120,7 @@
             <div class="panel panel-info">
                 <div class="panel-heading">
                     <div class="panel-title">Sign In</div>
-                    <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Forgot password?</a></div>
+                    <div style="float:right; position: relative; top:-10px"><a href="#">Forgot password?</a></div>
                 </div>
                 <div style="padding-top:30px" class="panel-body">
                     <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
@@ -203,12 +203,8 @@
                             <!-- Button -->
                             <div class="col-md-offset-3 col-md-9">
                                 <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i>Sign Up</button>
-                                <span style="margin-left:8px;">or</span>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #999; padding-top:20px" class="form-group">
-                            <div class="col-md-offset-3 col-md-9">
-                                <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>Sign Up with Facebook</button>
+                                <span>or</span>
+                                <button id="btn-fbsignup" type="button" class="btn btn-primary" disabled="disabled"><i class="icon-facebook"></i>Sign Up with Facebook</button>
                             </div>
                         </div>
                     </form>
@@ -216,5 +212,13 @@
             </div>
         </div>
     </div>
+    <hr>
+    <p align="center">Made by IT KMITL Student. Please help donate.</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" align="center">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="MXB2C4PA7R7B4" />
+        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-rect-paypal-44px.png" border="0" name="submit" title="Donate using PayPal" alt="Donate via PayPal" />
+    </form>
+    <p align="center">All process is done by PayPal. No refunds.</p>
 </body>
 </html>
