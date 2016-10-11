@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Experimented for ITF Projects">
-    <meta name="by @son9912">
     <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/light-fire-line-2/512/flame-512.png">
     <title>ITF Website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,8 +20,26 @@
             padding-top: 55px;
             font-family: 'Open Sans', 'Kanit', sans-serif;
         }
-    </style>
 
+        .carousel {
+            margin-top: 20px;
+        }
+
+            .carousel .item img {
+                margin: 0 auto; /* Align slide image horizontally center */
+            }
+
+        .bs-example {
+            margin: 20px;
+        }
+    </style>
+    <script>
+        function blinker() {
+            $('.blinking').fadeOut(50);
+            $('.blinking').fadeIn(150);
+        }
+        setInterval(blinker, 200);
+    </script>
 </head>
 <body>
     <!-- Boostrap Config Import -->
@@ -43,7 +59,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Items that will not be hide while tab is enable -->
-                <img alt="IT KMITL Logo" height="42" width="42" src="https://pbs.twimg.com/profile_images/2519713579/j6b8wuppraa2rrq3kwb7_400x400.png">
+                <a class="navbar-brand" href="index.html">
+                    <img alt="IT KMITL Logo" height="25" width="25" src="../images/sunrise_logo.png" alt="SunRise Logo">
+                </a>
             </div>
 
             <!-- Navigation bar elements -->
@@ -53,6 +71,7 @@
                         <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Trending</b></a></li>
+                            <li><a href="index.html">Landing Page</a></li>
                             <li><a href="404.html">Custom Page not found</a></li>
                             <li><a href="login.html">Login Page</a></li>
                             <li><a href="lobby_home.html">Lobby Template</a></li>
@@ -63,36 +82,32 @@
                         </ul>
                     </li>
 
-                    <li><a href="https://github.com/sagelga/ITF_Websites"><span class="glyphicon glyphicon-dashboard" aria-hidden="true" alt="GitHub"></span> Repository</a></li>
+                    <li><a href="https://github.com/sagelga/ITF_Websites"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Repository</a></li>
 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true" alt="Dropdown"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Website Resources</b></a></li>
                             <li><a href="https://getbootstrap.com/">BootStrap 3.3.7</a></li>
                             <li><a href="http://fontawesome.io/">Font Awesome</a></li>
                             <li><a href="https://fonts.google.com/">Google Fonts</a></li>
                             <li><a href="https://developers.facebook.com/">Facebook Developer Tools</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a><b>GitHub</b></a></li>
-                            <li><a href="https://github.com/sagelga/ITF_Websites">GitHub Repository</a></li>
+                            <li><a href="https://dev.twitter.com/">Twitter Developer Tools</a></li>
                         </ul>
                     </li>
+                </ul>
 
-                    <form class="navbar-form navbar-left">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true" alt="User"></span></button>
-                    </form>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true" alt="User"></span></button>
+                </form>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <button type="button" class="btn btn-primary navbar-btn" href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true" alt="User"></span> Account</button>
-                    </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
+                </ul>
             </div>
-            </li>
-            </ul>
-        </div>
         </div>
     </nav>
 
@@ -101,53 +116,85 @@
     <h5 align="center">Webpages got their name. For sure, this one does not belong to any page.</h5>
     <nav aria-label="Page Selection">
         <ul class="pager">
+            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+            <li><a href="index.html" class="blinking">Nyan</a></li>
+            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
             <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Back to home</a></li>
+            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+            <li><a href="index.html" class="blinking">Nyan</a></li>
+            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
         </ul>
     </nav>
-    <img align="middle" src="https://showwp.com/wp-content/uploads/2016/02/404_page_template_03.jpg" alt="Page is not found. Error 404" width="100%">
+    <iframe width="100%" height="750" src="https://www.youtube-nocookie.com/embed/jI-kpVh6e1U?rel=0&autoplay=1&loop=1&start=3&end=200&playlist=jI-kpVh6e1U" frameborder="0" allowfullscreen></iframe>
 
-    <!-- Footer Navigation Bar (Static) -->
-    <nav class="navbar navbar-default navbar-bottom">
-        <div class="container">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
+    <!-- Footer -->
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-xs-6 col-md-2">
+                <h3>Sector</h3>
+                <ul>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
                 </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
+            </div>
+
+            <div class="col-xs-6 col-md-2">
+                <h3>Sector</h3>
+                <ul>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-2">
+                <h3>Sector</h3>
+                <ul>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                    <li><a href="">Page</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-2">
+                <h3>Connect With Us</h3>
+                <ul class="social">
+                    <li><a href="" rel="ext">Facebook</a></li>
+                    <li><a href="" rel="ext">Twitter</a></li>
+                    <li><a href="" rel="ext">YouTube</a></li>
+                    <li><a href="" rel="ext">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-2">
+                <h3><img src="../images/sunrise_logo.png"></h3>
+                <div>
+                    <select name="language" id="language" class="form-control">
+                        <option value="en" selected>English</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsche</option>
+                        <option value="es">Español</option>
+                        <option value="jp">日本語</option>
+                    </select>
+                </div>
+                <br />
+                <ul>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Sitemap</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
+        <div class="col-md-1"></div>
+    </footer>
 </body>
 </html>
