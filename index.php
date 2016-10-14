@@ -8,9 +8,6 @@
     <title>ITF Website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Open+Sans" rel="stylesheet">
-    <link href="css/business-frontpage.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="css/style.css">
     <style>
         html {
@@ -20,6 +17,11 @@
         body {
             padding-top: 55px;
             font-family: 'Open Sans', 'Kanit', sans-serif;
+            /* GreyScale */
+            -moz-filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            filter: gray; /* IE6-9 */
+            filter: grayscale(100%);
         }
     </style>
 </head>
@@ -40,7 +42,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Items that will not be hide while tab is enable -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo">
                 </a>
             </div>
@@ -48,17 +50,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
+                        <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Create</b></a></li>
-                            <li><a href="index.html">Landing Page</a></li>
-                            <li><a href="404.html">Custom Page not found</a></li>
-                            <li><a href="login.html">Login Page</a></li>
-                            <li><a href="lobby_home.html">Lobby Template</a></li>
-                            <li><a href="profile_kumamon.html">Profile Template</a></li>
-                            <li><a href="4ColPort.html">4 Column Port</a></li>
-                            <li><a href="3ColPort.html">3 Column Port</a></li>
-                            <li><a href="ThumbnailPort.html">Thumbnail Port</a></li>
+                            <li><a href="index.php">Landing Page</a></li>
+                            <li><a href="404.php">Custom Page not found</a></li>
+                            <li><a href="login.php">Login Page</a></li>
+                            <li><a href="lobby_home.php">Lobby Template</a></li>
+                            <li><a href="profile_kumamon.php">Profile Template</a></li>
+                            <li><a href="4ColPort.php">4 Column Port</a></li>
+                            <li><a href="3ColPort.php">3 Column Port</a></li>
+                            <li><a href="ThumbnailPort.php">Thumbnail Port</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a><b>GitHub</b></a></li>
                             <li><a href="https://github.com/sagelga/ITF_Websites">GitHub Repository</a></li>
@@ -84,7 +86,7 @@
                     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true" alt="User"></span></button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
+                    <li><a href="login.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
                 </ul>
             </div>
         </div>

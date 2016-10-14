@@ -8,9 +8,6 @@
     <title>ITF Website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href="css/business-frontpage.css" rel="stylesheet">
-
     <style>
         html {
             font-family: 'Open Sans', 'Kanit', sans-serif;
@@ -59,7 +56,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Items that will not be hide while tab is enable -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo">
                 </a>
             </div>
@@ -68,17 +65,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
+                        <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Create</b></a></li>
-                            <li><a href="index.html">Landing Page</a></li>
-                            <li><a href="404.html">Custom Page not found</a></li>
-                            <li><a href="login.html">Login Page</a></li>
-                            <li><a href="lobby_home.html">Lobby Template</a></li>
-                            <li><a href="profile_kumamon.html">Profile Template</a></li>
-                            <li><a href="4ColPort.html">4 Column Port</a></li>
-                            <li><a href="3ColPort.html">3 Column Port</a></li>
-                            <li><a href="ThumbnailPort.html">Thumbnail Port</a></li>
+                            <li><a href="index.php">Landing Page</a></li>
+                            <li><a href="404.php">Custom Page not found</a></li>
+                            <li><a href="login.php">Login Page</a></li>
+                            <li><a href="lobby_home.php">Lobby Template</a></li>
+                            <li><a href="profile_kumamon.php">Profile Template</a></li>
+                            <li><a href="4ColPort.php">4 Column Port</a></li>
+                            <li><a href="3ColPort.php">3 Column Port</a></li>
+                            <li><a href="ThumbnailPort.php">Thumbnail Port</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a><b>GitHub</b></a></li>
                             <li><a href="https://github.com/sagelga/ITF_Websites">GitHub Repository</a></li>
@@ -108,7 +105,7 @@
                 </form>
 
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
+                  <li><a href="login.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
                 </ul>
             </div>
         </div>
@@ -120,13 +117,13 @@
     <h5 align="center">Webpages got their name. For sure, this one does not belong to any page.</h5>
     <nav aria-label="Page Selection">
         <ul class="pager">
-            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-            <li><a href="index.html" class="blinking">Nyan</a></li>
-            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-            <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Back to home</a></li>
-            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-            <li><a href="index.html" class="blinking">Nyan</a></li>
-            <li><a href="index.html" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+            <li><a href="index.php" class="blinking">Nyan</a></li>
+            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+            <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Back to home</a></li>
+            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+            <li><a href="index.php" class="blinking">Nyan</a></li>
+            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
         </ul>
     </nav>
     <iframe width="100%" height="750" src="https://www.youtube-nocookie.com/embed/jI-kpVh6e1U?rel=0&autoplay=1&loop=1&start=3&end=200&playlist=jI-kpVh6e1U" frameborder="0" allowfullscreen></iframe>
@@ -134,71 +131,58 @@
     <!-- Footer -->
     <hr>
     <footer>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-xs-6 col-md-2">
-                <h3>Sector</h3>
-                <ul>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                </ul>
-            </div>
-
-            <div class="col-xs-6 col-md-2">
-                <h3>Sector</h3>
-                <ul>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                </ul>
-            </div>
-
-            <div class="col-xs-6 col-md-2">
-                <h3>Sector</h3>
-                <ul>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="">Page</a></li>
-                </ul>
-            </div>
-
-            <div class="col-xs-6 col-md-2">
-                <h3>Connect With Us</h3>
-                <ul class="social">
-                    <li><a href="" rel="ext">Facebook</a></li>
-                    <li><a href="" rel="ext">Twitter</a></li>
-                    <li><a href="" rel="ext">YouTube</a></li>
-                    <li><a href="" rel="ext">LinkedIn</a></li>
-                </ul>
-            </div>
-
-            <div class="col-xs-6 col-md-2">
-                <h3><img src="../images/sunrise_logo.png"></h3>
-                <div>
-                    <select name="language" id="language" class="form-control">
-                        <option value="en" selected>English</option>
-                        <option value="fr">Français</option>
-                        <option value="de">Deutsche</option>
-                        <option value="es">Español</option>
-                        <option value="jp">日本語</option>
-                    </select>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h3>Sector</h3>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
                 </div>
-                <br />
-                <ul>
-                    <li><a href="">Terms of Service</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Sitemap</a></li>
-                </ul>
+                <div class="col-md-2">
+                    <h3>Sector</h3>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                </div>
+                <div class="col-md-2">
+                    <h3>Sector</h3>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                </div>
+                <div class="col-md-2">
+                    <h3>Connect</h3>
+                    <p href="">Facebook</p>
+                    <p href="">Twitter</p>
+                    <p href="">YouTube</p>
+                    <p href="">LinkedIn</p>
+                </div>
+
+
+                <div class="col-md-4">
+                    <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
+                    <div>
+                        <select name="language" id="language" class="form-control">
+                            <option value="en" selected>English</option>
+                            <option value="fr">Français</option>
+                            <option value="de">Deutsche</option>
+                            <option value="es">Español</option>
+                            <option value="jp">日本語</option>
+                        </select>
+                    </div>
+                    <br />
+                    <ul>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col-md-1"></div>
     </footer>
 </body>
 </html>
