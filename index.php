@@ -17,11 +17,6 @@
         body {
             padding-top: 55px;
             font-family: 'Open Sans', 'Kanit', sans-serif;
-            /* GreyScale */
-            -moz-filter: grayscale(100%);
-            -webkit-filter: grayscale(100%);
-            filter: gray; /* IE6-9 */
-            filter: grayscale(100%);
         }
     </style>
 </head>
