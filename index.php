@@ -92,13 +92,11 @@
             <div class="col-md-8">
                 <img class="img-responsive img-rounded" src="images/nyancat_origin.png" alt="">
             </div>
-
             <div class="col-md-4">
                 <h1>Business Name or Tagline</h1>
                 <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
                 <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
             </div>
-
         </div>
         <hr>
         <div class="row">
@@ -109,33 +107,27 @@
             </div>
         </div>
         <div class="row">
-
             <div class="col-xs-6 col-sm-4">
                 <img class="img-rounded img-responsive img-center" src="images/nyancat_origin.png" alt="Nyan Cat">
                 <h2>Marketing Box #1</h2>
                 <p>Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan</p>
             </div>
-
             <div class="col-xs-6 col-sm-4">
                 <img class="img-rounded img-responsive img-center" src="images/nyancat_origin.png" alt="Nyan Cat">
                 <h2>Marketing Box #2</h2>
                 <p>Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan</p>
             </div>
-
             <div class="col-xs-6 col-sm-4">
                 <img class="img-rounded img-responsive img-center" src="images/nyancat_origin.png" alt="Nyan Cat">
                 <h2>Marketing Box #3</h2>
                 <p>Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan</p>
             </div>
-
         </div>
     </div>
-
     <hr>
     <footer>
         <div class="container">
             <div class="row">
-
                 <div class="col-md-2">
                     <h3>Sector</h3>
                     <p href="">Page</p>
@@ -143,7 +135,6 @@
                     <p href="">Page</p>
                     <p href="">Page</p>
                 </div>
-
                 <div class="col-md-2">
                     <h3>Sector</h3>
                     <p href="">Page</p>
@@ -151,7 +142,6 @@
                     <p href="">Page</p>
                     <p href="">Page</p>
                 </div>
-
                 <div class="col-md-2">
                     <h3>Sector</h3>
                     <p href="">Page</p>
@@ -159,7 +149,6 @@
                     <p href="">Page</p>
                     <p href="">Page</p>
                 </div>
-
                 <div class="col-md-2">
                     <h3>Connect</h3>
                     <p href="">Facebook</p>
@@ -167,6 +156,7 @@
                     <p href="">YouTube</p>
                     <p href="">LinkedIn</p>
                 </div>
+
 
                 <div class="col-md-4">
                     <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
