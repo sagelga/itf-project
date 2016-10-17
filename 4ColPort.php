@@ -212,6 +212,7 @@
                         <p href="">Page</p>
                         <p href="">Page</p>
                     </div>
+
                     <div class="col-md-2">
                         <h3>Sector</h3>
                         <p href="">Page</p>
@@ -219,6 +220,7 @@
                         <p href="">Page</p>
                         <p href="">Page</p>
                     </div>
+
                     <div class="col-md-2">
                         <h3>Sector</h3>
                         <p href="">Page</p>
@@ -226,6 +228,7 @@
                         <p href="">Page</p>
                         <p href="">Page</p>
                     </div>
+
                     <div class="col-md-2">
                         <h3>Connect</h3>
                         <p href="">Facebook</p>
@@ -234,24 +237,31 @@
                         <p href="">LinkedIn</p>
                     </div>
 
-
                     <div class="col-md-4">
                         <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
-                        <div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
                             <select name="language" id="language" class="form-control">
                                 <option value="en" selected>English</option>
+                                <option value="th">ไทย</option
                                 <option value="fr">Français</option>
+                                <option value="jp">日本語</option>
                                 <option value="de">Deutsche</option>
                                 <option value="es">Español</option>
-                                <option value="jp">日本語</option>
                             </select>
                         </div>
-                        <br />
-                        <ul>
-                            <li><a href="">Terms of Service</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Sitemap</a></li>
-                        </ul>
+                        <div class="col-md-2"></div>
+                        <br>
+                        <br>
+                        <div class="col-md-4"
+                            <p align="center"><a href="">Terms</a></p>
+                          </div>
+                          <div class="col-md-4"
+                            <p align="center"><a href="">Sitemap</a></p>
+                          </div>
+                          <div class="col-md-4"
+                            <p align="center"><a href="">Contact</a></p>
+                          </div>
                     </div>
                 </div>
             </div>

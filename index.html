@@ -13,9 +13,30 @@
         html {
             font-family: 'Open Sans', 'Kanit', sans-serif;
         }
+
         body {
             padding-top: 55px;
             font-family: 'Open Sans', 'Kanit', sans-serif;
+        }
+
+        .nav {
+            margin-bottom: 0;
+        }
+
+            .nav > li.dropdown.open {
+                position: static;
+            }
+
+                .nav > li.dropdown.open .dropdown-menu {
+                    display: table;
+                    width: 100%;
+                    text-align: center;
+                    left: 0;
+                    right: 0;
+                }
+
+        .dropdown-menu > li {
+            display: table-cell;
         }
     </style>
 </head>
@@ -44,8 +65,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
-                        <ul class="dropdown-menu">
+                        <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home 
+                        <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
                             <li><a><b>Create</b></a></li>
                             <li><a href="index.html">Landing Page</a></li>
                             <li><a href="404.html">Custom Page not found</a></li>
@@ -167,25 +191,30 @@
 
                 <div class="col-md-4">
                     <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
-                    <div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
                         <select name="language" id="language" class="form-control">
                             <option value="en" selected>English</option>
-                            <option value="th">ไทย</option
+                            <option value="th">
+                                ไทย
+                            </option>
                             <option value="fr">Français</option>
                             <option value="jp">日本語</option>
                             <option value="de">Deutsche</option>
                             <option value="es">Español</option>
                         </select>
                     </div>
-                    <br />
+                    <div class="col-md-2"></div>
+                    <br>
+                    <br>
                     <div class="col-md-4"
                         <p align="center"><a href="">Terms</a></p>
                       </div>
-                      <div class="col-md-4"
+                    <div class="col-md-4"
                         <p align="center"><a href="">Sitemap</a></p>
                       </div>
-                      <div class="col-md-4"
-                        <p align="center"><a href="">Sitemap</a></p>
+                    <div class="col-md-4"
+                        <p align="center"><a href="">Contact</a></p>
                       </div>
                 </div>
             </div>
