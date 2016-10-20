@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/light-fire-line-2/512/flame-512.png">
+    <title>ITF Website</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Open+Sans" rel="stylesheet">
+    <style>
+        .dropdown-large {
+            position: static !important;
+        }
+
+        .dropdown-menu-large {
+            margin-left: 16px;
+            margin-right: 16px;
+            padding: 20px 0px;
+        }
+
+            .dropdown-menu-large > li > ul {
+                padding: 0;
+                margin: 0;
+            }
+
+                .dropdown-menu-large > li > ul > li {
+                    list-style: none;
+                }
+
+                    .dropdown-menu-large > li > ul > li > a {
+                        display: block;
+                        padding: 3px 20px;
+                        clear: both;
+                        font-weight: normal;
+                        line-height: 1.428571429;
+                        color: #333333;
+                        white-space: normal;
+                    }
+
+            .dropdown-menu-large > li ul > li > a:hover,
+            .dropdown-menu-large > li ul > li > a:focus {
+                text-decoration: none;
+                color: #262626;
+                background-color: #f5f5f5;
+            }
+
+            .dropdown-menu-large .disabled > a,
+            .dropdown-menu-large .disabled > a:hover,
+            .dropdown-menu-large .disabled > a:focus {
+                color: #999999;
+            }
+
+                .dropdown-menu-large .disabled > a:hover,
+                .dropdown-menu-large .disabled > a:focus {
+                    text-decoration: none;
+                    background-color: transparent;
+                    background-image: none;
+                    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+                    cursor: not-allowed;
+                }
+
+            .dropdown-menu-large .dropdown-header {
+                color: #428bca;
+                font-size: 18px;
+            }
+
+        @media (max-width: 768px) {
+            .dropdown-menu-large {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+                .dropdown-menu-large > li {
+                    margin-bottom: 30px;
+                }
+
+                    .dropdown-menu-large > li:last-child {
+                        margin-bottom: 0;
+                    }
+
+                .dropdown-menu-large .dropdown-header {
+                    padding: 3px 15px !important;
+                }
+        }
+    </style>
+</head>
+<body>
+    <!-- Boostrap Config Import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <!-- Top Navigation Bar (Locked In) -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Navigation bar will be grouped for small display (smaller than iPad) -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Items that will not be hide while tab is enable -->
+                <a class="navbar-brand" href="index.php">
+                    <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo">
+                </a>
+            </div>
+            <!-- Navigation bar elements -->
+            <div class="collapse navbar-collapse js-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown dropdown-large">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <div class="container-fluid">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li class="dropdown-header">Pages</li>
+                                        <li><a href="index.html">Landing Page</a></li>
+                                        <li><a href="404.html">Custom Page not found</a></li>
+                                        <li><a href="login.php">Login Page</a></li>
+                                        <li><a href="lobby_home.php">Lobby Template</a></li>
+                                        <li><a href="profile_kumamon.html">Profile Template</a></li>
+                                        <li><a href="4ColPort.php">4 Column Port</a></li>
+                                        <li><a href="3ColPort.php">3 Column Port</a></li>
+                                        <li><a href="ThumbnailPort.php">Thumbnail Port</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul></ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul></ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul></ul>
+                                </li>
+                    </li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+            <form class="navbar-form navbar-left">
+                <script>
+                    (function () {
+                        var cx = '001930882093453736952:aff1pe2aefg';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:search></gcse:search>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
+            </ul>
+
+            <div class="col-xs-6 col-sm-4">
+                <iframe src="https://status.github.com/" width="100%">Well, your browser does not support web frame.</iframe>
+            </div>
+
+            <div class="col-xs-6 col-sm-4">
+                <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Fstatus.aws.amazon.com%2Frss%2Fall.rss%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22off%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22justify%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on_mc%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%222%22%2C%22auto_scroll_mc_speed%22%3A%2230%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22on%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25e.%25m.%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22off%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script>
+            </div>
+
+            <div class="col-xs-6 col-sm-4">
+                <iframe src="https://www.google.co.th/search?hl=en&safe=off&q=what+is+my+ip&ei=dKEIWIKbJofevgTa5Jb4DQ" width="100%">Well, your browser does not support web frame.</iframe>
+            </div>
+            
+            <hr>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-4">
+                            <h3>Sector</h3>
+                            <p href="">Page</p>
+                            <p href="">Page</p>
+                            <p href="">Page</p>
+                            <p href="">Page</p>
+                        </div>
+
+                        <div class="col-xs-3 col-sm-4">
+                            <h3>Sector</h3>
+                            <p href="">Page</p>
+                            <p href="">Page</p>
+                            <p href="">Page</p>
+                            <p href="">Page</p>
+                        </div>
+
+                        <div class="col-xs-3 col-sm-4">
+                            <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
+                            <div class="col-md-2"></div>
+                            <div class="col-xs-8">
+                                <select name="language" id="language" class="form-control">
+                                    <option value="en" selected>English</option>
+                                    <option value="th">
+                                        ไทย
+                                    </option>
+                                    <option value="fr">Français</option>
+                                    <option value="jp">日本語</option>
+                                    <option value="de">Deutsche</option>
+                                    <option value="es">Español</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-2"></div>
+                            <br>
+                            <br>
+                            <div class="col-md-4"
+                        <p align="center"><a href="">Terms</a></p>
+                      </div>
+                            <div class="col-md-4"
+                        <p align="center"><a href="">Sitemap</a></p>
+                      </div>
+                            <div class="col-md-4"
+                        <p align="center"><a href="">Contact</a></p>
+                      </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>
