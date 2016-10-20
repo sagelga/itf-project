@@ -32,10 +32,10 @@
             <!-- Navigation bar will be grouped for small display (smaller than iPad) -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="sr-only">Catetories</span>
+                    <span class="icon-bar">Portrait</span>
+                    <span class="icon-bar">Landscape</span>
+                    <span class="icon-bar">Street</span>
                 </button>
                 <!-- Items that will not be hide while tab is enable -->
                 <a class="navbar-brand" href="index.php">
@@ -95,16 +95,16 @@
 
     <!-- Alerts and notifications -->
     <div class="panel panel-info">
-        <div class="panel-heading">You have reached the website. How can you do that?</div>
+        <div class="panel-heading">Please rate us at our Facebook</div>
         <div class="panel-body">
-            Note that, this website is for educational purpose only. Do not redistribute.
+            Attention, please view for your happiness NOT Sex or copy for sales with no credit.
         </div>
     </div>
 
     <!--These below lines are independent elements. Do not really need to copy to others.-->
     <!-- Page shortcuts -->
-    <h2 align="center">Hello</h2>
-    <p align="center">See some webpages.</p>
+    <h2 align="center">Hello guys</h2>
+    <p align="center">The best picture is here</p>
     <nav aria-label="Page Selection" align="center">
         <ul class="pagination pagination-sm">
             <li><a href="#">All</a></li>
@@ -122,7 +122,7 @@
     </nav>
     <!-- Active-looking loading bar-->
     <div class="col-xs-6">
-        <h4>Website Progress</h4>
+        <h4>Loading... Please stay tuned!!!</h4>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
                 <span class="sr-only">Some achievements</span>
@@ -130,10 +130,10 @@
         </div>
     </div>
     <div class="col-xs-6">
-        <h4>Project Deadline</h4>
+        <h4>I love you</h4>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                <span class="sr-only">Some achievements</span>
+                <span class="sr-only">Levels</span>
             </div>
         </div>
     </div>
