@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -8,23 +8,20 @@
     <title>ITF Website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <style>
-        html {
-            font-family: 'Open Sans', 'Kanit', sans-serif;
+    <script>
+        function blinker() {
+            $('.blinking').fadeOut(50);
+            $('.blinking').fadeIn(150);
         }
-
-        body {
-            padding-top: 55px;
-            font-family: 'Open Sans', 'Kanit', sans-serif;
-        }
-    </style>
+        setInterval(blinker, 200);
+    </script>
 </head>
 <body>
     <!-- Boostrap Config Import -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
+
     <!-- Top Navigation Bar (Locked In) -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -41,6 +38,7 @@
                     <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo">
                 </a>
             </div>
+
             <!-- Navigation bar elements -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -48,22 +46,24 @@
                         <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Create</b></a></li>
-                            <li><a href="index.php">Landing Page</a></li>
-                            <li><a href="404.php">Custom Page not found</a></li>
+                            <li><a href="index.html">Landing Page</a></li>
+                            <li><a href="404.html">Area 404</a></li>
                             <li><a href="login.php">Login Page</a></li>
-                            <li><a href="lobby_home.php">Lobby Template</a></li>
-                            <li><a href="profile_kumamon.php">Profile Template</a></li>
-                            <li><a href="4ColPort.php">4 Column Port</a></li>
-                            <li><a href="3ColPort.php">3 Column Port</a></li>
-                            <li><a href="ThumbnailPort.php">Thumbnail Port</a></li>
+                            <li><a href="lobby_home.html">Lobby Template</a></li>
+                            <li><a href="profile_kumamon.html">Profile Template</a></li>
+                            <li><a href="status.html">Website Status</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a><b>GitHub</b></a></li>
-                            <li><a href="https://github.com/sagelga/ITF_Websites">GitHub Repository</a></li>
+                            <li><a><b>Picture Templates</b></a></li>
+                            <li><a href="4ColPort.html">4 Column Port</a></li>
+                            <li><a href="3ColPort.html">3 Column Port</a></li>
+                            <li><a href="ThumbnailPort.html">Thumbnail Port</a></li>
                         </ul>
                     </li>
+
                     <li><a href="https://github.com/sagelga/ITF_Websites"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Repository</a></li>
+
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Website Resources</b></a></li>
                             <li><a href="https://getbootstrap.com/">BootStrap 3.3.7</a></li>
@@ -74,14 +74,16 @@
                         </ul>
                     </li>
                 </ul>
+
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true" alt="User"></span></button>
                 </form>
+
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="login.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
+                  <li><a href="login.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
                 </ul>
             </div>
         </div>
@@ -207,7 +209,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-6">
                     <h3>Sector</h3>
                     <p href="">Page</p>
                     <p href="">Page</p>
@@ -215,7 +217,7 @@
                     <p href="">Page</p>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-6">
                     <h3>Sector</h3>
                     <p href="">Page</p>
                     <p href="">Page</p>
@@ -223,7 +225,7 @@
                     <p href="">Page</p>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-6">
                     <h3>Sector</h3>
                     <p href="">Page</p>
                     <p href="">Page</p>
@@ -231,7 +233,7 @@
                     <p href="">Page</p>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-6">
                     <h3>Connect</h3>
                     <p href="">Facebook</p>
                     <p href="">Twitter</p>
@@ -239,31 +241,25 @@
                     <p href="">LinkedIn</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-12">
                     <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
                         <select name="language" id="language" class="form-control">
                             <option value="en" selected>English</option>
-                            <option value="th">ไทย</option
+                            <option value="th">ไทย</option>
                             <option value="fr">Français</option>
                             <option value="jp">日本語</option>
                             <option value="de">Deutsche</option>
                             <option value="es">Español</option>
                         </select>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <br>
-                    <br>
-                    <div class="col-md-4"
-                        <p align="center"><a href="">Terms</a></p>
+                        <br>
+                      <div class="col-xs-6"
+                        <p align="center"><a href="">Sitemaps</a></p>
                       </div>
-                      <div class="col-md-4"
-                        <p align="center"><a href="">Sitemap</a></p>
+
+                      <div class="col-xs-6"
+                        <p align="center"><a href="">Contacts</a></p>
                       </div>
-                      <div class="col-md-4"
-                        <p align="center"><a href="">Contact</a></p>
-                      </div>
+
                 </div>
             </div>
         </div>

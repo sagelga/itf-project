@@ -9,16 +9,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <style>
-        html {
-            font-family: 'Open Sans', 'Kanit', sans-serif;
-        }
-
-        body {
-            padding-top: 55px;
-            font-family: 'Open Sans', 'Kanit', sans-serif;
-        }
-    </style>
 </head>
 <body>
     <!-- Boostrap Config Import -->
