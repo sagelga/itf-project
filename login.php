@@ -196,16 +196,22 @@
             </div>
         </div>
     </div>
-    <hr>
-    <p align="center">Made by IT KMITL Student. Please help donate.</p>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" align="center">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="MXB2C4PA7R7B4" />
-        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-rect-paypal-44px.png" border="0" name="submit" title="Donate using PayPal" alt="Donate via PayPal" />
-    </form>
-    <p align="center">All process is done by PayPal. No refunds.</p>
 
     <hr>
+    <p align="center">Made by IT KMITL Student. Please help donate.</p>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" align="center">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="MXB2C4PA7R7B4" />
+            <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-rect-paypal-44px.png" border="0" name="submit" title="Donate using PayPal" alt="Donate via PayPal" />
+        </form>
+
+    <h3 align="center">AWS EC2 Estimated Costs</h3>
+    <p align="center">
+      <iframe src="https://app.datadoghq.com/graph/embed?token=f588f1cf8aaa8ebc38836130034ccbbe6bdd2e54bf35724a5e397a1acddfa25c&height=200&width=400&legend=true" width="400" height="200" frameborder="0"></iframe>
+    </p>
+    <hr>
+
     <footer>
         <div class="container">
             <div class="row">
