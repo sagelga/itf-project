@@ -78,17 +78,27 @@
     </nav>
     <h1 align="center">Upload files</h1>
   <hr>
+<<<<<<< HEAD
     <!-- This thing upload files to SQL -->
   <center>
         <font color="white">
         <form name="form1" method="post" action="PageUploadToMySQL2.php" enctype="multipart/form-data">
+=======
+     <!-- This thing upload files to SQL -->
+  <center>
+        <font color="white">
+        <form name="form1" method="post" action="PageUploadToMySQL.php" enctype="multipart/form-data">
+>>>>>>> origin/master
         Name : <input type="text" name="txtName"><br>
         Picture : <input type="file" name="filUpload"><br>
         <input name="btnSubmit" type="submit" value="Submit">
         </font>
         </form>
   </center>
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     <footer>
         <div class="container">
             <div class="row">
