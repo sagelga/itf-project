@@ -111,8 +111,9 @@
 
 
     <!--These below lines are independent elements. Do not really need to copy to others.-->
-    <h1 align="center">Sorry. Your page just went crazy.</h1>
-    <h5 align="center">Nyan cat cannot redirect your link to any page. So there he is.</h5>
+    <h1 align="center">Lists of HTTP Errors</h1>
+    <h5 align="center">Something is not correct. So you managed to visit this page.</h5>
+    <h5 align="center">Resource by <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">WikiPedia.</a></h5>
     <h3>Or search the website</h3>
     <script>
     (function() {
@@ -126,18 +127,133 @@
     })();
     </script>
     <gcse:search></gcse:search>
-    <nav aria-label="Page Selection">
-        <ul class="pager">
-            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-            <li><a href="index.php" class="blinking">Nyan</a></li>
-            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-            <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Back to home</a></li>
-            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-            <li><a href="index.php" class="blinking">Nyan</a></li>
-            <li><a href="index.php" class="blinking"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
-        </ul>
-    </nav>
-    <iframe width="100%" height="750" src="https://www.youtube-nocookie.com/embed/jI-kpVh6e1U?rel=0&autoplay=1&loop=1&start=3&end=200&playlist=jI-kpVh6e1U" frameborder="0" allowfullscreen></iframe>
+
+<h1>4xx Client Error</h1>
+
+<p>The 4xx class of status code is intended for situations in which the client seems to have erred. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents should display any included entity to the user.</p>
+
+<h3>400 Bad Request</h3>
+The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).
+
+<h3>401 Unauthorized (RFC 7235)</h3>
+Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. See Basic access authentication and Digest access authentication.[33] 401 semantically means "unauthenticated", i.e. the user does not have the necessary credentials.
+Note: Some sites issue HTTP 401 when an IP address is banned from the website (usually the website domain) and that specific address is refused permission to access a website.
+
+<h3>402 Payment Required</h3>
+Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. Google Developers API uses this status if a particular developer has exceeded the daily limit on requests.
+
+<h3>403 Forbidden</h3>
+The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.
+
+<h3>404 Not Found</h3>
+The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.
+
+<h3>405 Method Not Allowed</h3>
+A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.
+
+<h3>406 Not Acceptable</h3>
+The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.
+
+<h3>407 Proxy Authentication Required (RFC 7235)</h3>
+The client must first authenticate itself with the proxy.
+
+<h3>408 Request Timeout</h3>
+The server timed out waiting for the request. According to HTTP specifications: "The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time."
+
+<h3>409 Conflict</h3>
+Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.
+
+<h3>410 Gone</h3>
+Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a "404 Not Found" may be used instead.
+
+<h3>411 Length Required</h3>
+The request did not specify the length of its content, which is required by the requested resource.
+
+<h3>412 Precondition Failed (RFC 7232)</h3>
+The server does not meet one of the preconditions that the requester put on the request.
+
+<h3>413 Payload Too Large (RFC 7231)</h3>
+The request is larger than the server is willing or able to process. Previously called "Request Entity Too Large".
+
+<h3>414 URI Too Long (RFC 7231)</h3>
+The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request.[44] Called "Request-URI Too Long" previously.
+
+<h3>415 Unsupported Media Type</h3>
+The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.
+
+<h3>416 Range Not Satisfiable (RFC 7233)</h3>
+The client has asked for a portion of the file (byte serving), but the server cannot supply that portion. For example, if the client asked for a part of the file that lies beyond the end of the file.[46] Called "Requested Range Not Satisfiable" previously.
+
+<h3>417 Expectation Failed</h3>
+The server cannot meet the requirements of the Expect request-header field.
+
+<h3>418 I'm a teapot (RFC 2324)</h3>
+This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. The RFC specifies this code should be returned by teapots requested to brew coffee.[49] This HTTP status is used as an easter egg in some websites, including Google.com.
+
+<h3>421 Misdirected Request (RFC 7540)</h3>
+The request was directed at a server that is not able to produce a response (for example because a connection reuse).
+
+<h3>422 Unprocessable Entity (WebDAV; RFC 4918)</h3>
+The request was well-formed but was unable to be followed due to semantic errors.
+
+<h3>423 Locked (WebDAV; RFC 4918)</h3>
+The resource that is being accessed is locked.
+
+<h3>424 Failed Dependency (WebDAV; RFC 4918)</h3>
+The request failed due to failure of a previous request (e.g., a PROPPATCH).
+
+<h3>426 Upgrade Required</h3>
+The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field.
+
+<h3>428 Precondition Required (RFC 6585)</h3>
+The origin server requires the request to be conditional. Intended to prevent "the 'lost update' problem, where a client GETs a resource's state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict."
+
+<h3>429 Too Many Requests (RFC 6585)</h3>
+The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.
+
+<h3>431 Request Header Fields Too Large (RFC 6585)</h3>
+The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.
+
+<h3>451 Unavailable For Legal Reasons</h3>
+A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource. The code 451 was chosen as a reference to the novel Fahrenheit 451.
+
+<h1>5xx Server Error</h1>
+
+The server failed to fulfill an apparently valid request.
+Response status codes beginning with the digit "5" indicate cases in which the server is aware that it has encountered an error or is otherwise incapable of performing the request. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and indicate whether it is a temporary or permanent condition. Likewise, user agents should display any included entity to the user. These response codes are applicable to any request method.
+
+<h3>500 Internal Server Error</h3>
+A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
+
+<h3>501 Not Implemented</h3>
+The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API).
+
+<h3>502 Bad Gateway</h3>
+The server was acting as a gateway or proxy and received an invalid response from the upstream server.
+
+<h3>503 Service Unavailable</h3>
+The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.
+
+<h3>504 Gateway Timeout</h3>
+The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.
+
+<h3>505 HTTP Version Not Supported</h3>
+The server does not support the HTTP protocol version used in the request.
+
+<h3>506 Variant Also Negotiates (RFC 2295)</h3>
+Transparent content negotiation for the request results in a circular reference.
+
+<h3>507 Insufficient Storage (WebDAV; RFC 4918)</h3>
+The server is unable to store the representation needed to complete the request.
+
+<h3>508 Loop Detected (WebDAV; RFC 5842)</h3>
+The server detected an infinite loop while processing the request (sent in lieu of 208 Already Reported).
+
+<h3>510 Not Extended (RFC 2774)</h3>
+Further extensions to the request are required for the server to fulfill it.
+
+<h3>511 Network Authentication Required (RFC 6585)</h3>
+The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., "captive portals" used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot).
 
     <!-- Footer -->
     <hr>

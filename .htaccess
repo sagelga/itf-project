@@ -1,10 +1,15 @@
-### MAIN DEFAULTS
-Options +ExecCGI -Indexes
-DirectoryIndex index.html index.htm index.php
-DefaultLanguage en-US
-AddDefaultCharset UTF-8
-ServerSignature Off
+DirectoryIndex index.html index.php index.htm
 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+ErrorDocument 403 /Error/403.html
 ErrorDocument 404 /Error/404.html
-ErrorDocument 304 /Error/304.html
-ErrorDocument 303 /Error/303.html
+ErrorDocument 500 /Error/500.html
+</IfModule>
+
+Options -Indexes
+Options +FollowSymlinks
+
+<Files .htaccess>
+deny from all
+</Files>
