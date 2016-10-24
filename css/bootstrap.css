@@ -6775,25 +6775,3 @@ input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus,.gsc-se
 padding: 0px 0px 0px 0px;
 
 }
-
-.full-width.dropdown {
-    position: static;
-}
-.full-width.dropdown > .dropdown-menu {
-    position: static;
-    right: 0;
-    left: 0;
-}
-.full-width.dropdown > .dropdown-menu > li > a {
-    white-space: normal;
-}
-.fill-width.dropdown {
-     position: static;
- }
-.fill-width.dropdown > .dropdown-menu {
-    position: absolute;
-    left: auto;
-}
-.fill-width.dropdown > .dropdown-menu > li > a {
-    white-space: normal;
-}
