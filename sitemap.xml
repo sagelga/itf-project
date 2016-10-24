@@ -9,85 +9,83 @@
 <url>
   <loc>http://54.254.168.155/</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Pages/login.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Pages/profile_kumamon.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Pages/status.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Error/404.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Error/403.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Error/500.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Error/ErrorList.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Pages/3ColPort.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
-
 
 <url>
   <loc>http://54.254.168.155/Pages/4ColPort.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
-
 
 <url>
   <loc>http://54.254.168.155/Pages/lobby_home.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>http://54.254.168.155/Pages/thumbnailPort.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 
@@ -95,10 +93,8 @@
 <url>
   <loc>http://54.254.168.155/Pages/upload.html</loc>
   <lastmod>2016-10-24T05:56:10+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
 </url>
-
-
 
 </urlset>
