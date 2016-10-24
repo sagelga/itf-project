@@ -8,37 +8,49 @@
 
 <url>
   <loc>http://54.254.168.155/</loc>
-  <lastmod>2016-10-22T13:35:47+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://54.254.168.155/index.html</loc>
-  <lastmod>2016-10-22T13:35:47+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://54.254.168.155/Pages/login.php</loc>
+  <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://54.254.168.155/404.html</loc>
-  <lastmod>2016-10-22T13:35:47+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://54.254.168.155/Pages/profile_kumamon.html</loc>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://54.254.168.155/login.php</loc>
-  <changefreq>daily</changefreq>
+  <loc>http://54.254.168.155/Pages/status.html</loc>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://54.254.168.155/profile_kumamon.html</loc>
-  <lastmod>2016-10-22T13:35:47+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://54.254.168.155/Error/404.html</loc>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://54.254.168.155/status.html</loc>
-  <lastmod>2016-10-22T13:35:47+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://54.254.168.155/Error/403.html</loc>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://54.254.168.155/Error/500.html</loc>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://54.254.168.155/Error/ErrorList.html</loc>
+  <lastmod>2016-10-24T05:56:10+00:00</lastmod>
+  <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 </urlset>
