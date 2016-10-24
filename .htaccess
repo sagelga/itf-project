@@ -1,0 +1,10 @@
+### MAIN DEFAULTS
+Options +ExecCGI -Indexes
+DirectoryIndex index.html index.htm index.php
+DefaultLanguage en-US
+AddDefaultCharset UTF-8
+ServerSignature Off
+
+ErrorDocument 404 /Error/404.html
+ErrorDocument 304 /Error/304.html
+ErrorDocument 303 /Error/303.html
