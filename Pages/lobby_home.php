@@ -8,20 +8,13 @@
     <title>ITF Website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Open+Sans" rel="stylesheet">
-    <link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/business-frontpage.css" rel="stylesheet">
-
-    <style>
-        html {
-            font-family: 'Open Sans', 'Kanit', sans-serif;
+    <script>
+        function blinker() {
+            $('.blinking').fadeOut(50);
+            $('.blinking').fadeIn(150);
         }
-
-        body {
-            padding-top: 55px;
-            font-family: 'Open Sans', 'Kanit', sans-serif;
-        }
-    </style>
-
+        setInterval(blinker, 200);
+    </script>
 </head>
 <body>
     <!-- Boostrap Config Import -->
@@ -35,13 +28,13 @@
             <!-- Navigation bar will be grouped for small display (smaller than iPad) -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="sr-only">Catetories</span>
+                    <span class="icon-bar">Portrait</span>
+                    <span class="icon-bar">Landscape</span>
+                    <span class="icon-bar">Street</span>
                 </button>
                 <!-- Items that will not be hide while tab is enable -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo">
                 </a>
             </div>
@@ -50,27 +43,27 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
+                        <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Create</b></a></li>
                             <li><a href="index.html">Landing Page</a></li>
-                            <li><a href="404.html">Custom Page not found</a></li>
-                            <li><a href="login.html">Login Page</a></li>
+                            <li><a href="404.html">Area 404</a></li>
+                            <li><a href="login.php">Login Page</a></li>
                             <li><a href="lobby_home.html">Lobby Template</a></li>
                             <li><a href="profile_kumamon.html">Profile Template</a></li>
+                            <li><a href="status.html">Website Status</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a><b>Picture Templates</b></a></li>
                             <li><a href="4ColPort.html">4 Column Port</a></li>
                             <li><a href="3ColPort.html">3 Column Port</a></li>
                             <li><a href="ThumbnailPort.html">Thumbnail Port</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a><b>GitHub</b></a></li>
-                            <li><a href="https://github.com/sagelga/ITF_Websites">GitHub Repository</a></li>
                         </ul>
                     </li>
 
                     <li><a href="https://github.com/sagelga/ITF_Websites"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Repository</a></li>
 
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li><a><b>Website Resources</b></a></li>
                             <li><a href="https://getbootstrap.com/">BootStrap 3.3.7</a></li>
@@ -90,7 +83,7 @@
                 </form>
 
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
+                  <li><a href="login.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Account</a></li>
                 </ul>
             </div>
         </div>
@@ -98,16 +91,16 @@
 
     <!-- Alerts and notifications -->
     <div class="panel panel-info">
-        <div class="panel-heading">You have reached the website. How can you do that?</div>
+        <div class="panel-heading">Please rate us at our Facebook</div>
         <div class="panel-body">
-            Note that, this website is for educational purpose only. Do not redistribute.
+            Attention, please view for your happiness NOT Sex or copy for sales with no credit.
         </div>
     </div>
 
     <!--These below lines are independent elements. Do not really need to copy to others.-->
     <!-- Page shortcuts -->
-    <h2 align="center">Hello</h2>
-    <p align="center">See some webpages.</p>
+    <h2 align="center">Hello guys</h2>
+    <p align="center">The best picture is here</p>
     <nav aria-label="Page Selection" align="center">
         <ul class="pagination pagination-sm">
             <li><a href="#">All</a></li>
@@ -125,7 +118,7 @@
     </nav>
     <!-- Active-looking loading bar-->
     <div class="col-xs-6">
-        <h4>Website Progress</h4>
+        <h4>Loading... Please stay tuned!!!</h4>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
                 <span class="sr-only">Some achievements</span>
@@ -133,10 +126,10 @@
         </div>
     </div>
     <div class="col-xs-6">
-        <h4>Project Deadline</h4>
+        <h4>I love you</h4>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                <span class="sr-only">Some achievements</span>
+                <span class="sr-only">Levels</span>
             </div>
         </div>
     </div>
@@ -180,54 +173,65 @@
         </div>
     </div>
 
+    <!-- Start of the footer -->
     <hr>
     <footer>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <h3 align="center">Sector</h3>
-                <p align="center" href="">Page</p>
-                <p align="center" href="">Page</p>
-                <p align="center" href="">Page</p>
-                <p align="center" href="">Page</p>
-            </div>
-
-            <div class="col-md-2">
-                <h3 align="center">Sector</h3>
-                    <p align="center" href="">Page</p>
-                    <p align="center" href="">Page</p>
-                    <p align="center" href="">Page</p>
-                    <p align="center" href="">Page</p>
-            </div>
-
-            <div class="col-md-2">
-                <h3 align="center">Connect</h3>
-                    <p align="center" href="">Facebook</p>
-                    <p align="center" href="">Twitter</p>
-                    <p align="center" href="">YouTube</p>
-                    <p align="center" href="">LinkedIn</p>
-            </div>
-
-            <div class="col-xs-4 col-sm-3">
-                <h3><img src="images/sunrise_logo.png"> Sun Rise</h3>
-                <div>
-                    <select name="language" id="language" class="form-control">
-                        <option value="en" selected>English</option>
-                        <option value="fr">Français</option>
-                        <option value="de">Deutsche</option>
-                        <option value="es">Español</option>
-                        <option value="jp">日本語</option>
-                    </select>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-xs-6">
+                    <h3>Sector</h3>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
                 </div>
-                <br />
-                <ul>
-                    <li><a href="">Terms of Service</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Sitemap</a></li>
-                </ul>
+
+                <div class="col-md-2 col-xs-6">
+                    <h3>Sector</h3>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                </div>
+
+                <div class="col-md-2 col-xs-6">
+                    <h3>Sector</h3>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                    <p href="">Page</p>
+                </div>
+
+                <div class="col-md-2 col-xs-6">
+                    <h3>Connect</h3>
+                    <p href="">Facebook</p>
+                    <p href="">Twitter</p>
+                    <p href="">YouTube</p>
+                    <p href="">LinkedIn</p>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <h3 align="center"><img src="images/sunrise_logo.png"> Sun Rise</h3>
+                        <select name="language" id="language" class="form-control">
+                            <option value="en" selected>English</option>
+                            <option value="th">ไทย</option>
+                            <option value="fr">Français</option>
+                            <option value="jp">日本語</option>
+                            <option value="de">Deutsche</option>
+                            <option value="es">Español</option>
+                        </select>
+                        <br>
+                      <div class="col-xs-6"
+                        <p align="center"><a href="">Sitemaps</a></p>
+                      </div>
+
+                      <div class="col-xs-6"
+                        <p align="center"><a href="">Contacts</a></p>
+                      </div>
+
+                </div>
             </div>
         </div>
-        <div class="col-md-1"></div>
     </footer>
 </body>
 </html>
