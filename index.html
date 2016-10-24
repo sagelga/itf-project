@@ -13,13 +13,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Boostrap Config Import -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.js"></script>
 
     <!-- Top Navigation Bar (Locked In) -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" id="menu-bar">
         <div class="container-fluid">
             <!-- Navigation bar will be grouped for small display (smaller than iPad) -->
             <div class="navbar-header">
@@ -31,7 +27,7 @@
                 </button>
                 <!-- Items that will not be hide while tab is enable -->
                 <a class="navbar-brand" href="index.php">
-                    <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo">
+                    <img height="25" width="25" src="images/sunrise_logo.png" alt="SunRise Logo"> SunRise
                 </a>
             </div>
 
@@ -58,36 +54,62 @@
                             <li class="dropdown">
                                 <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true" alt="Dropdown"></span> Home <span class="glyphicon glyphicon-menu-down" aria-hidden="true" alt="Dropdown"></span></a>
                                 <ul class="dropdown-menu">
+
                                     <li><a><b>Create</b></a></li>
-                                    <li><a href="index.html">Landing Page</a></li>
-                                    <li><a href="404.html">Area 404</a></li>
-                                    <li><a href="login.php">Login Page</a></li>
-                                    <li><a href="lobby_home.html">Lobby Template</a></li>
-                                    <li><a href="profile_kumamon.html">Profile Template</a></li>
-                                    <li><a href="status.html">Website Status</a></li>
+                                    <li><a href="Pages/index.html">Landing Page</a></li>
+                                    <li><a href="Pages/login.php">Login Page</a></li>
+                                    <li><a href="Pages/lobby_home.html">Lobby Template</a></li>
+                                    <li><a href="Pages/profile_kumamon.html">Profile Template</a></li>
+                                    <li><a href="Pages/status.html">Website Status</a></li>
+
                                     <li role="separator" class="divider"></li>
                                     <li><a><b>Picture Templates</b></a></li>
-                                    <li><a href="4ColPort.html">4 Column Port</a></li>
-                                    <li><a href="3ColPort.html">3 Column Port</a></li>
-                                    <li><a href="ThumbnailPort.html">Thumbnail Port</a></li>
+                                    <li><a href="Pages/4ColPort.html">4 Column Port</a></li>
+                                    <li><a href="Pages/3ColPort.html">3 Column Port</a></li>
+                                    <li><a href="Pages/ThumbnailPort.html">Thumbnail Port</a></li>
+
+                                    <li role="separator" class="divider"></li>
+                                    <li><a><b>Error Page</b></a></li>
+                                    <li><a href="Error/404.html">Area 404 Page Not Found</a></li>
+                                    <li><a href="Error/403.html">Area 403</a></li>
+                                    <li><a href="Error/500.html">Area 500 Server's Problem</a></li>
+                                    <li><a href="Error/ErrorList.html">HTTP Response Code</a></li>
+
                                 </ul>
                             </li>
 
                             <li><a href="https://github.com/sagelga/ITF_Websites"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Repository</a></li>
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Connect <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a><b>Website Resources</b></a></li>
+
+                                    <li><a><b>Development Resources</b></a></li>
                                     <li><a href="https://getbootstrap.com/">BootStrap 3.3.7</a></li>
-                                    <li><a href="http://fontawesome.io/">Font Awesome</a></li>
                                     <li><a href="https://fonts.google.com/">Google Fonts</a></li>
                                     <li><a href="https://developers.facebook.com/">Facebook Developer Tools</a></li>
                                     <li><a href="https://dev.twitter.com/">Twitter Developer Tools</a></li>
+
+                                    <li role="separator" class="divider"></li>
+                                    <li><a><b>Web Hosting</b></a></li>
+                                    <li><a href="https://aws.amazon.com/ec2/">Amazon EC2 (Computing)</a></li>
+                                    <li><a href="https://aws.amazon.com/codedeploy/">Amazon CodeDeploy (Deploying Repository)</a></li>
+                                    <li><a href="https://aws.amazon.com/s3/">Amazon S3 (Storage)</a></li>
+                                    <li><a href="https://aws.amazon.com/autoscaling/">Amazon AutoScaling (EC2 AutoScaling)</a></li>
+                                    <li><a href="https:/datadog.com">DataDog (Performance Dashboard)</a></li>
+
+                                    <li role="separator" class="divider"></li>
+                                    <li><a><b>Git Hosting</b></a></li>
+                                    <li><a href="https://github.com/">GitHub</a></li>
+                                    <li><a href="https://github.com/sagelga/ITF_Project">ITF Project Repository</a></li>
+                                    <li><a href="https://github.com/sagelga/ITF_Project/commits/master">ITF Project Master Branch (Branch to Deploy)</a></li>
+                                    <li><a href="https://github.com/sagelga/ITF_Project/blob/master/README.md">README for ITF Project</a></li>
+
                                 </ul>
                             </li>
                         </ul>
 
+                        <ul class="nav navbar-nav navbar-right">
 
                   <div class="googleSearchBox">
                     <script>
@@ -103,6 +125,7 @@
                     </script>
                     <gcse:search></gcse:search>
                   </div>
+</ul>
             </div>
           </div>
     </nav>
@@ -229,6 +252,13 @@
             </div>
         </div>
     </footer>
+    <!-- Boostrap Config Import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-86183782-1', 'auto');ga('send', 'pageview');
+  </script>
+
 </body>
 </html>
 
