@@ -8,11 +8,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="http://54.254.168.155/images/sunrise_logo.png">
+    <link rel="icon" href="images/sunrise_logo.png">
     <!-- Google Fonts --> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- BootStrap CSS --> <link href="http://demos.creative-tim.com/material-kit/assets/css/material-kit.css" rel="stylesheet">
-    <!-- FontAwesome CSS --> <link rel="stylesheet" href="http://54.254.168.155/css/bootstrap.min.css">
-    <!-- BootStrap CSS --> <link rel="stylesheet" href="http://54.254.168.155/css/font-awesome.min.css">
+    <!-- BootStrap CSS --> <link href="css/material-kit.css" rel="stylesheet">
+    <!-- FontAwesome CSS --> <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- BootStrap CSS --> <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Google Theme CSS --> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <style>
@@ -35,8 +35,8 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="http://54.254.168.155">
-      <img src="http://54.254.168.155/images/sunrise_logo.png" height="35px" width="35px"></img>
+    <a class="navbar-brand" href="index.html">
+      <img src="images/sunrise_logo.png" height="35px" width="35px"></img>
     </a>
     </div>
 
@@ -48,22 +48,27 @@
                                 <i class="fa fa-home" aria-hidden="true"></i> Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 
                                 <ul class="dropdown-menu"> <li><a><b>Create</b></a></li>
-                                    <li><a href="http://54.254.168.155/index.html">Landing Page</a></li>
-                                    <li><a href="http://54.254.168.155/Pages/login.php">Login Page</a></li>
-                                    <li><a href="http://54.254.168.155/Pages/lobby_home.html">Lobby Template</a></li>
-                                    <li><a href="http://54.254.168.155/Pages/profile_kumamon.html">Profile Template</a></li>
-                                    <li><a href="http://54.254.168.155/Pages/status.html">Website Status</a></li>
+                                    <li><a href="index.html">Landing Page</a></li>
+                                    <li><a href="Pages/lobby_home.html">Lobby Template</a></li>
+                                    <li><a href="Pages/profile_kumamon.html">Profile Template</a></li>
+                                    <li><a href="Pages/status.html">Website Status</a></li>
+                                    <li><a href="Pages/login.php">Login</a></li>
+                                    <li><a href="Pages/upload.php">Upload</a></li>
 
                                     <li role="separator" class="divider"></li> <li><a><b>Picture Templates</b></a></li>
-                                    <li><a href="http://54.254.168.155/Pages/4ColPort.html">4 Column Port</a></li>
-                                    <li><a href="http://54.254.168.155/Pages/3ColPort.html">3 Column Port</a></li>
-                                    <li><a href="http://54.254.168.155/Pages/ThumbnailPort.html">Thumbnail Port</a></li>
+                                    <li><a href="Pages/4ColPort.html">4 Column Port</a></li>
+                                    <li><a href="Pages/3ColPort.html">3 Column Port</a></li>
+                                    <li><a href="Pages/ThumbnailPort.html">Thumbnail Port</a></li>
 
                                     <li role="separator" class="divider"></li> <li><a><b>Error Page</b></a></li>
-                                    <li><a href="http://54.254.168.155/Error/404.html">Area 404 Page Not Found</a></li>
-                                    <li><a href="http://54.254.168.155/Error/403.html">Area 403</a></li>
-                                    <li><a href="http://54.254.168.155/Error/500.html">Area 500 Server's Problem</a></li>
-                                    <li><a href="http://54.254.168.155/Error/ErrorList.html">HTTP Response Code</a></li>
+                                    <li><a href="Error/404.html">Area 404 Page Not Found</a></li>
+                                    <li><a href="Error/403.html">Area 403</a></li>
+                                    <li><a href="Error/500.html">Area 500 Server's Problem</a></li>
+                                    <li><a href="Error/ErrorList.html">HTTP Response Code</a></li>
+
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="images/nyancat_origin.png">Nyan.cat</a></li>
+
                                 </ul>
 
                             </li>
