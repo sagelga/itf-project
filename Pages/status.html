@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Phodory</title>
-  <meta name="description" content="Welcome to the Phodory Website. Share your photos with your friends!">
+  <title>Sinchronize</title>
+  <meta name="description" content="Welcome to the Sinchronize Website. Share your photos with your friends!">
   <meta name="keyword" content="search, engine, optimization, search engine optimization, SEO">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/sunrise_logo.png">
+    <link rel="icon" href="http://web.sinchronize.com/images/sinchronize.png">
     <!-- Google Fonts --> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- BootStrap CSS --> <link href="css/material-kit.css" rel="stylesheet">
-    <!-- FontAwesome CSS --> <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- BootStrap CSS --> <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- BootStrap CSS --> <link href="http://web.sinchronize.com/css/material-kit.css" rel="stylesheet">
+    <!-- FontAwesome CSS --> <link rel="stylesheet" href="http://web.sinchronize.com/css/bootstrap.min.css">
+    <!-- BootStrap CSS --> <link rel="stylesheet" href="http://web.sinchronize.com/css/font-awesome.min.css">
     <!-- Google Theme CSS --> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <style>
@@ -25,7 +25,7 @@
 
     <!-- Top Navigation Bar (Locked In) -->
     <div id="navbar">
-	            <div class="navigation-example">
+                <div class="navigation-example">
     <nav class="navbar navbar-success">
     <div class="container">
     <div class="navbar-header">
@@ -35,8 +35,8 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="index.html">
-      <img src="images/sunrise_logo.png" height="35px" width="35px"></img>
+    <a class="navbar-brand" href="http://web.sinchronize.com/index.html">
+      <img src="http://web.sinchronize.com/images/sinchronize.png" height="35px" width="35px"></img>
     </a>
     </div>
 
@@ -48,26 +48,26 @@
                                 <i class="fa fa-home" aria-hidden="true"></i> Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 
                                 <ul class="dropdown-menu"> <li><a><b>Create</b></a></li>
-                                    <li><a href="index.html">Landing Page</a></li>
-                                    <li><a href="Pages/lobby_home.html">Lobby Template</a></li>
-                                    <li><a href="Pages/profile_kumamon.html">Profile Template</a></li>
-                                    <li><a href="Pages/status.html">Website Status</a></li>
-                                    <li><a href="Pages/login.php">Login</a></li>
-                                    <li><a href="Pages/upload.php">Upload</a></li>
+                                    <li><a href="http://web.sinchronize.com/index.html">Landing Page</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/status.html">Website Status</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/login.php">Login</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/upload.php">Upload</a></li>
 
                                     <li role="separator" class="divider"></li> <li><a><b>Picture Templates</b></a></li>
-                                    <li><a href="Pages/4ColPort.html">4 Column Port</a></li>
-                                    <li><a href="Pages/3ColPort.html">3 Column Port</a></li>
-                                    <li><a href="Pages/ThumbnailPort.html">Thumbnail Port</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/4ColPort.html">4 Column Port</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/3ColPort.html">3 Column Port</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/ThumbnailPort.html">Thumbnail Port</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/lobby_home.php">Lobby Template</a></li>
+                                    <li><a href="http://web.sinchronize.com/Pages/profile_kumamon.html">Profile Template</a></li>
 
                                     <li role="separator" class="divider"></li> <li><a><b>Error Page</b></a></li>
-                                    <li><a href="Error/404.html">Area 404 Page Not Found</a></li>
-                                    <li><a href="Error/403.html">Area 403</a></li>
-                                    <li><a href="Error/500.html">Area 500 Server's Problem</a></li>
-                                    <li><a href="Error/ErrorList.html">HTTP Response Code</a></li>
+                                    <li><a href="http://web.sinchronize.com/Error/404.html">Area 404 Page Not Found</a></li>
+                                    <li><a href="http://web.sinchronize.com/Error/403.html">Area 403</a></li>
+                                    <li><a href="http://web.sinchronize.com/Error/500.html">Area 500 Server's Problem</a></li>
+                                    <li><a href="http://web.sinchronize.com/Error/ErrorList.html">HTTP Response Code</a></li>
 
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="images/nyancat_origin.png">Nyan.cat</a></li>
+                                    <li><a href="http://web.sinchronize.com/images/nyancat_origin.png">Nyan.cat</a></li>
 
                                 </ul>
 
@@ -90,6 +90,8 @@
                                     <li><a href="https://aws.amazon.com/codedeploy/">Amazon CodeDeploy</a></li>
                                     <li><a href="https://aws.amazon.com/s3/">Amazon S3</a></li>
                                     <li><a href="https://aws.amazon.com/autoscaling/">Amazon AutoScaling</a></li>
+                                    <li><a href="https://aws.amazon.com/lambda/">Amazon Lambda</a></li>
+                                    <li><a href="https://aws.amazon.com/cloudwatch/">Amazon CloudWatch</a></li>
 
                                     <li role="separator" class="divider"></li> <li><a><b>GitHub</b></a></li>
                                     <li><a href="https://github.com/">GitHub</a></li>
