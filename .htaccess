@@ -2,9 +2,13 @@ DirectoryIndex index.html index.php index.htm
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-ErrorDocument 403 /Error/403.html
-ErrorDocument 404 /Error/404.html
-ErrorDocument 500 /Error/500.html
+ErrorDocument 403 Error/403.html
+ErrorDocument 404 Error/404.html
+ErrorDocument 500 Error/500.html
+ErrorDocument 501 Error/ErrorList.html
+ErrorDocument 502 Error/ErrorList.html
+ErrorDocument 503 Error/ErrorList.html
+ErrorDocument 504 Error/ErrorList.html
 </IfModule>
 
 Options -Indexes
