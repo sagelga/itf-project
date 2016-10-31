@@ -8,65 +8,60 @@
         <i class="fa fa-home" aria-hidden="true"></i> Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 
         <ul class="dropdown-menu"> <li><a><b>Create</b></a></li>
-          <li><a href="http://web.sinchronize.com/index.html">Landing Page</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/status.html">Website Status</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/login.php">Login</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/upload.php">Upload</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/logout.php">Logout</a></li>
+          <li><a href="http://web.sinchronize.com/index.html" title="Click me to navigate">Landing Page</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/status.html" title="Click me to navigate">Website Status</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/login.php" title="Click me to navigate">Login</a></li>          
+          <li><a href="http://web.sinchronize.com/Pages/logout.php" title="Click me to navigate">Logout</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/upload.php" title="Click me to navigate">Upload</a></li>
+          <li><a href="http://web.sinchronize.com/Error/ErrorList.html" title="Click me to navigate">Error FailSafe</a></li>
 
           <li role="separator" class="divider"></li> <li><a><b>Picture Templates</b></a></li>
-          <li><a href="http://web.sinchronize.com/Pages/4ColPort.php">4 Column Port</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/3ColPort.php">3 Column Port</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/ThumbnailPort.php">Thumbnail Port</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/lobby_home.php">Lobby Template</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/profile_kumamon.html">Profile Template</a></li>
-
-          <li role="separator" class="divider"></li> <li><a><b>Error Page</b></a></li>
-          <li><a href="http://web.sinchronize.com/Error/404.html">Area 404 Page Not Found</a></li>
-          <li><a href="http://web.sinchronize.com/Error/403.html">Area 403</a></li>
-          <li><a href="http://web.sinchronize.com/Error/500.html">Area 500 Server's Problem</a></li>
-          <li><a href="http://web.sinchronize.com/Error/ErrorList.html">HTTP Response Code</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/4ColPort.php" title="Click me to naviage">4 Column Port</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/3ColPort.php" title="Click me to naviage">3 Column Port</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/ThumbnailPort.php" title="Click me to naviage">Thumbnail Port</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/lobby_home.php" title="Click me to naviage">Lobby Template</a></li>
+          <li><a href="http://web.sinchronize.com/Pages/profile_kumamon.html" title="Click me to naviage">Profile Template</a></li>
 
           <li role="separator" class="divider"></li>
           <li><a href="http://web.sinchronize.com/images/nyancat_origin.png">Nyan.cat</a></li>
 
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-external-link-square" aria-hidden="true"></i> Resource <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+
+          <ul class="dropdown-menu"> <li><a><b>Website Framework</b></a></li>
+            <li><a href="https://getbootstrap.com/" title="Click me to naviage to external link">BootStrap 3.3.7</a></li>
+            <li><a href="http://fontawesome.io/" title="Click me to naviage to external link">Font Awesome</a></li>
+            <li><a href="https://fonts.google.com/" title="Click me to naviage to external link">Google Fonts</a></li>
+            <li><a href="https://www.google.com/webmasters/tools/home?hl=en&authuser=0" title="Click me to naviage to external link">Google Search Console</a></li>
+            <li><a href="https://developers.facebook.com/" title="Click me to naviage to external link">Facebook Developer Tools</a></li>
+            <li><a href="https://dev.twitter.com/" title="Click me to naviage to external link"> Twitter Developer Tools</a></li>
+            <li><a href="http://www.creative-tim.com/product/material-kit" title="Click me to naviage to external link"> Material Kit</a></li>
+            <li><a href="https://www.datadoghq.com/" title="Click me to naviage to external link"> DataDog</a></li>
+            <li><a href="https://feed.mikle.com/" title="Click me to naviage to external link"> FeedWind RSS</a></li>
+
+            <li role="separator" class="divider"></li> <li><a><b>Web Hosting</b></a></li>
+            <li><a href="https://aws.amazon.com/ec2/" title="Click me to naviage to external link">Amazon EC2</a></li>
+            <li><a href="https://aws.amazon.com/codedeploy/" title="Click me to naviage to external link">Amazon CodeDeploy</a></li>
+            <li><a href="https://aws.amazon.com/autoscaling/" title="Click me to naviage to external link">Amazon AutoScaling</a></li>
+            <li><a href="https://aws.amazon.com/lambda/" title="Click me to naviage to external link">Amazon Lambda</a></li>
+            <li><a href="https://aws.amazon.com/cloudwatch/" title="Click me to naviage to external link">Amazon CloudWatch</a></li>
+            <li><a href="https://godaddy.com/" title="Click me to naviage to external link">GoDaddy</a></li>                                    
+
+            <li role="separator" class="divider"></li> <li><a><b>Git Hosting</b></a></li>
+            <li><a href="https://github.com" title="Click me to naviage to external link">GitHub</a></li>
+            <li><a href="https://github.com/sagelga/ITF_Project" title="Click me to naviage to external link">ITF Project Repository</a></li>
+            <li><a href="https://github.com/sagelga/ITF_Project/commits/master" title="Click me to naviage to external link">ITF Project Master Branch</a></li>
+            <li><a href="https://github.com/sagelga/ITF_Project/blob/master/README.md" title="Click me to naviage to external link">README</a></li>
+          </ul>
+
+        </li>
       </ul>
-  </li>
-
-  <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-      <i class="fa fa-external-link-square" aria-hidden="true"></i> Resource <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-
-      <ul class="dropdown-menu"> <li><a><b>Website Framework</b></a></li>
-        <li><a href="https://getbootstrap.com/">BootStrap 3.3.7</a></li>
-        <li><a href="http://fontawesome.io/">Font Awesome</a></li>
-        <li><a href="https://fonts.google.com/">Google Fonts</a></li>
-        <li><a href="https://www.google.com/webmasters/tools/home?hl=en&authuser=0">Google Search Console</a></li>
-        <li><a href="https://developers.facebook.com/">Facebook Developer Tools</a></li>
-        <li><a href="https://dev.twitter.com/"> Twitter Developer Tools</a></li>
-        <li><a href="http://www.creative-tim.com/product/material-kit"> Material Kit</a></li>
-        <li><a href="https://www.datadoghq.com/"> DataDog</a></li>
-        <li><a href="https://feed.mikle.com/"> FeedWind RSS</a></li>
-
-        <li role="separator" class="divider"></li> <li><a><b>Web Hosting</b></a></li>
-        <li><a href="https://aws.amazon.com/ec2/">Amazon EC2</a></li>
-        <li><a href="https://aws.amazon.com/codedeploy/">Amazon CodeDeploy</a></li>
-        <li><a href="https://aws.amazon.com/autoscaling/">Amazon AutoScaling</a></li>
-        <li><a href="https://aws.amazon.com/lambda/">Amazon Lambda</a></li>
-        <li><a href="https://aws.amazon.com/cloudwatch/">Amazon CloudWatch</a></li>
-        <li><a href="https://godaddy.com/">GoDaddy</a></li>                                    
-
-        <li role="separator" class="divider"></li> <li><a><b>Git Hosting</b></a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
-        <li><a href="https://github.com/sagelga/ITF_Project">ITF Project Repository</a></li>
-        <li><a href="https://github.com/sagelga/ITF_Project/commits/master">ITF Project Master Branch</a></li>
-        <li><a href="https://github.com/sagelga/ITF_Project/blob/master/README.md">README</a></li>
-    </ul>
-
-</li>
-</ul>
-</div>
-</div>
+    </div>
+  </div>
 </nav>
 
 <script>+function(e){"use strict";var n=document.getElementById("drop-zone"),o=document.getElementById("js-upload-form"),t=function(e){console.log(e)};o.addEventListener("submit",function(e){var n=document.getElementById("js-upload-files").files;e.preventDefault(),t(n)}),n.ondrop=function(e){e.preventDefault(),this.className="upload-drop-zone",t(e.dataTransfer.files)},n.ondragover=function(){return this.className="upload-drop-zone drop",!1},n.ondragleave=function(){return this.className="upload-drop-zone",!1}}(jQuery);.
