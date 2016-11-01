@@ -1,2 +1,7 @@
 AWS IAM-CodeDeploy.txt
 AWSCodeDeployEC2.ppk
+.DS_Store
+.dropbox
+Icon
+*.attr
+*.ini
