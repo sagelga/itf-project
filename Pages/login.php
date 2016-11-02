@@ -1,4 +1,4 @@
-<?php include "dbConfig.php";
+<?php include "Pages/dbConfig.php";
 
 $msg = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         if (mysql_num_rows($query) > 0) {
-           
+
             header('Location: dbConfig.php');
             exit;
         }
@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <li><a href="https://aws.amazon.com/autoscaling/">Amazon AutoScaling</a></li>
                         <li><a href="https://aws.amazon.com/lambda/">Amazon Lambda</a></li>
                         <li><a href="https://aws.amazon.com/cloudwatch/">Amazon CloudWatch</a></li>
-                        <li><a href="https://godaddy.com/">GoDaddy</a></li>                                    
+                        <li><a href="https://godaddy.com/">GoDaddy</a></li>
 
                         <li role="separator" class="divider"></li> <li><a><b>Git Hosting</b></a></li>
                         <li><a href="https://github.com/">GitHub</a></li>
@@ -106,8 +106,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          <td></td>
          <td style="color:red;">
             <?php echo $msg; ?></td>
-        </tr> 
-        
+        </tr>
+
         <tr>
             <th><label for="name"><strong>Name:</strong></label></th>
             <td><input class="inp-text" name="name" id="name" type="text" size="30" /></td>
@@ -120,9 +120,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          <td></td>
          <td class="submit-button-right">
             <input class="send_btn" type="submit" value="Submit" alt="Submit" title="Submit" />
-            
+
             <input class="send_btn" type="reset" value="Reset" alt="Reset" title="Reset" /></td>
-            
+
         </tr>
     </table>
 </form>
