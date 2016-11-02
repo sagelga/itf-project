@@ -1,4 +1,4 @@
-<?php include("Templates/NavigationBar.html");?>
+<?php include("/Templates/NavigationBar.html");?>
 
 <br>
 <p align="center"><img src="http://web.sinchronize.com/images/sinchronize.png"></p>
@@ -53,4 +53,4 @@
 <hr>
 <br>
 
-<?php include("Templates/FooterBar.html");?>
+<?php include("/Templates/FooterBar.html");?>
