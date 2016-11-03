@@ -1,5 +1,6 @@
-<!DOCTYPE html><html lang="en"><head> <title>Sinchronize</title> <meta name="description" content="Welcome to the Sinchronize Website. Share your photos with your friends!"> <meta name="keyword" content="search, engine, optimization, search engine optimization, SEO"> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="icon" href="http://web.sinchronize.com/images/sinchronize.png"> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <link href="http://web.sinchronize.com/css/material-kit.css" rel="stylesheet"> <link rel="stylesheet" href="http://web.sinchronize.com/css/bootstrap.min.css"> <link rel="stylesheet" href="http://web.sinchronize.com/css/font-awesome.min.css"> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <style>body{font-family: 'Roboto', sans-serif;}</style></head><body> <div id="navbar"> <div class="navigation-example"> <nav class="navbar navbar-success"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-success"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="http://web.sinchronize.com/index.html"> <img src="http://web.sinchronize.com/images/sinchronize.png" height="35px" width="35px"></img> </a> </div>
-
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/NavigationBar.html");?>
 <!-- Navigation bar elements -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   <ul class="nav navbar-nav">
@@ -10,7 +11,7 @@
         <ul class="dropdown-menu"> <li><a><b>Create</b></a></li>
           <li><a href="http://web.sinchronize.com/index.html" title="Click me to navigate">Landing Page</a></li>
           <li><a href="http://web.sinchronize.com/Pages/status.html" title="Click me to navigate">Website Status</a></li>
-          <li><a href="http://web.sinchronize.com/Pages/login.php" title="Click me to navigate">Login</a></li>          
+          <li><a href="http://web.sinchronize.com/Pages/login.php" title="Click me to navigate">Login</a></li>
           <li><a href="http://web.sinchronize.com/Pages/logout.php" title="Click me to navigate">Logout</a></li>
           <li><a href="http://web.sinchronize.com/Pages/upload.php" title="Click me to navigate">Upload</a></li>
           <li><a href="http://web.sinchronize.com/Error/ErrorList.html" title="Click me to navigate">Error FailSafe</a></li>
@@ -49,7 +50,7 @@
             <li><a href="https://aws.amazon.com/autoscaling/" title="Click me to naviage to external link">Amazon AutoScaling</a></li>
             <li><a href="https://aws.amazon.com/lambda/" title="Click me to naviage to external link">Amazon Lambda</a></li>
             <li><a href="https://aws.amazon.com/cloudwatch/" title="Click me to naviage to external link">Amazon CloudWatch</a></li>
-            <li><a href="https://godaddy.com/" title="Click me to naviage to external link">GoDaddy</a></li>                                    
+            <li><a href="https://godaddy.com/" title="Click me to naviage to external link">GoDaddy</a></li>
 
             <li role="separator" class="divider"></li> <li><a><b>Git Hosting</b></a></li>
             <li><a href="https://github.com" title="Click me to naviage to external link">GitHub</a></li>

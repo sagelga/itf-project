@@ -1,7 +1,6 @@
-<!DOCTYPE html><html lang="en"><head> <title>Sinchronize</title> <meta name="description" content="Welcome to the Sinchronize Website. Share your photos with your friends!"> <meta name="keyword" content="search, engine, optimization, search engine optimization, SEO"> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="icon" href="http://web.sinchronize.com/images/sinchronize.png"> <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <link href="http://web.sinchronize.com/css/material-kit.css" rel="stylesheet"> <link rel="stylesheet" href="http://web.sinchronize.com/css/bootstrap.min.css"> <link rel="stylesheet" href="http://web.sinchronize.com/css/font-awesome.min.css"> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <style>body{font-family: 'Roboto', sans-serif;}</style></head><body>
-
-<?php include("Templates/NavigationBar.html");?>
-
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/NavigationBar.html");?>
 <!--These below lines are independent elements. Do not really need to copy to others.-->
 <div class="row">
 	<div class="col-xs-10 col-xs-offset-1">

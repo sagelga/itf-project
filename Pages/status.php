@@ -1,4 +1,6 @@
-<?php include("/Templates/NavigationBar.html");?>
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/NavigationBar.html");?>
 
 <br>
 <p align="center"><img src="http://web.sinchronize.com/images/sinchronize.png"></p>

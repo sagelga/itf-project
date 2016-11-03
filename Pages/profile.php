@@ -1,4 +1,6 @@
-<?php include("Templates/NavigationBar.html");?>
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/NavigationBar.html");?>
 
     <div class="container-fluid">
         <div class="col-xs-8">
