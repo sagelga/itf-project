@@ -50,19 +50,19 @@ include("$root/Templates/NavigationBar.html");?>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="https://flic.kr/p/N8aVDF" alt="Awesome Image" width="300" height="200">
+                    <img src="http://www.theillustrationconference.org/css/img/HP_lead-image_1280x735.jpg" alt="Awesome Image" width="300" height="200">
                     <div class="carousel-caption">
                       <h4><i class="material-icons">location_on</i> Portrait Pic.</h4>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="https://flic.kr/p/CEhpWc" alt="Awesome Image" width="300" height="200">
+                    <img src="http://blog.spoongraphics.co.uk/wp-content/uploads/2015/09/vector-illustration.png" alt="Awesome Image" width="300" height="200">
                     <div class="carousel-caption">
                       <h4><i class="material-icons">location_on</i> Somewhere Beyond, Thailand</h4>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="https://flic.kr/p/DpjrBa" alt="Awesome Image" width="300" height="200">
+                    <img src="https://static1.squarespace.com/static/520542b0e4b0cc1763c00169/t/521821a4e4b02837fdbd63bb/1377313192307/9.jpg" alt="Awesome Image" width="300" height="200">
                     <div class="carousel-caption">
                       <h4><i class="material-icons">location_on</i> Chinese Day in Thailand.</h4>
                     </div>
