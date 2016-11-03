@@ -1,4 +1,6 @@
-<?php include("$root/Templates/NavigationBar.html");?>
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/NavigationBar.html");?>
 
 <center>
 <div class="col-xs-10 col-xs-offset-1">
@@ -83,4 +85,6 @@
           </div>
           </div>
           <!-- End Carousel Card -->
-<?php include("$root/Templates/FooterBar.html");?>
+          <?php
+          $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+          include("$root/Templates/FooterBar.html");?>
