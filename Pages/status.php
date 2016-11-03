@@ -1,5 +1,4 @@
-<?php
-$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+<?php $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 include("$root/Templates/NavigationBar.html");?>
 
 <br>
@@ -55,4 +54,5 @@ include("$root/Templates/NavigationBar.html");?>
 <hr>
 <br>
 
-<?php include("/Templates/FooterBar.html");?>
+<?php $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/FooterBar.html");?>
