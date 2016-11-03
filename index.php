@@ -1,4 +1,4 @@
-<?php include("Templates/NavigationBar.html");?>
+<?php include("http://web.sinchronize.com/Templates/NavigationBar.html");?>
 
 <center>
 <div class="col-xs-10 col-xs-offset-1">
@@ -83,4 +83,4 @@
           </div>
           </div>
           <!-- End Carousel Card -->
-<?php include("Templates/FooterBar.html");?>
+<?php include("http://web.sinchronize.com/Templates/FooterBar.html");?>
