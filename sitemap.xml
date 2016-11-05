@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://54.254.168.155/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/index.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Pages/status.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Pages/login.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Pages/upload.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Pages/ErrorList.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Pages/lobby_home.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Pages/profile.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/index.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/about.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/switch.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/collections.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/profile.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/community.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/individual.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/assignment.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/contact.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://54.254.168.155/Database/Portfolio/uploads/5/7/3/3/57337291/trip_guide.html</loc>
+  <lastmod>2016-11-05T12:41:25+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
