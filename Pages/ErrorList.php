@@ -12,7 +12,33 @@ include("$root/Templates/NavigationBar.html");?>
             <script>(function () { var cx = '001930882093453736952:anbyactfo_s';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})(); </script>
             <gcse:search></gcse:search>
 
-            <img src="http://images-cdn.9gag.com/photo/aNW9xdv_700b_v1.jpg" alt="Memes from 9GAG" class="img-rounded img-responsive img-raised" title="Developer here is not a spider. We make bugs when we tried to kill one.">
+            <script type="text/javascript">
+ var imlocation = "/images";
+ var currentdate = 0;
+ var image_number = 0;
+ function ImageArray (n) {
+   this.length = n;
+   for (var i =1; i <= n; i++) {
+     this[i] = ' '
+   }
+ }
+ image = new ImageArray(7)
+ image[0] = 'web_error1.jpg'
+ image[1] = 'web_error2.jpg'
+ image[2] = 'web_error3.jpg'
+ image[3] = 'web_error4.jpg'
+ image[4] = 'web_error5.jpg'
+ image[5] = 'web_error6.png'
+ image[6] = 'web_error7.gif'
+ var rand = 60/image.length
+ function randomimage() {
+ 	currentdate = new Date()
+ 	image_number = currentdate.getSeconds()
+ 	image_number = Math.floor(image_number/rand)
+ 	return(image[image_number])
+ }
+ document.write("<img alt="Memes from 9GAG" class="img-rounded img-responsive img-raised" title="Come on. Dont you get the jokes?" src='" + imlocation + randomimage()+ "'>");
+</script>
             <br>
             <h2 align="center">Frequent Error Code</h2>
             <div class="col-md-2"></div>
