@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
-} 
+}
 
 $sql = "SELECT * FROM content order by datetime DESC";
 $result = $conn->query($sql);
@@ -21,22 +21,6 @@ $result = $conn->query($sql);
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 include("$root/Templates/NavigationBar.html");?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>ITF Project</title>
-
-	<meta name="description" content="Source code generated using layoutit.com">
-	<meta name="author" content="LayoutIt!">
-
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-
-</head>
 <body>
 
 	<div class="container-fluid">
@@ -47,21 +31,10 @@ include("$root/Templates/NavigationBar.html");?>
 
 
 				<div class="page-header">
-					<h1>
-						Blog <small>While True Gaming Present</small>
+					<h1 align="center">
+						Upload your files <br><small>while you still can</small>
 					</h1>
 				</div>
-
-				<div class="jumbotron">
-					<h2>
-						James, uploading template
-					</h2>
-					<p>
-						This is a simple web blogs.Please test to add new content at below form.
-					</p>
-				</div>
-
-
 
 				<?php
 
@@ -77,16 +50,16 @@ include("$root/Templates/NavigationBar.html");?>
 						echo '</p>';
 						echo '</div>';
 					}
-				} 
+				}
 
-				$conn->close(); 
+				$conn->close();
 
 				?>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-10 col-md-offset-1">
 				<form role="form" action="add_content.php" method="post">
 					<div class="form-group">
 
@@ -100,11 +73,11 @@ include("$root/Templates/NavigationBar.html");?>
 						<label for="ContentForm">
 							Content
 						</label>
-						<textarea name="content" class="form-control" id="ContentForm" rows="4" cols="50"></textarea>
+						<textarea name="content" class="form-control" id="ContentForm" rows="1" cols="50"></textarea>
 
 					</div>
 
-					<button type="submit" class="btn btn-default">
+					<button type="submit" class="btn btn-success">
 						Submit
 					</button>
 				</form>

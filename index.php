@@ -9,7 +9,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
-} 
+}
 
 $sql = "SELECT * FROM content order by datetime DESC";
 $result = $conn->query($sql);
@@ -24,7 +24,6 @@ $result = $conn->query($sql);
   <div class="row">
 
         <?php
-
         if ($result->num_rows > 0) {
 
           while($row = $result->fetch_assoc()) {
@@ -33,9 +32,9 @@ $result = $conn->query($sql);
             echo '<p><h5>'.$row["name"].'</h5></p>';
             echo '</div>';
           }
-        } 
+        }
 
-        $conn->close(); 
+        $conn->close();
 
         ?>
 
@@ -54,7 +53,7 @@ $result = $conn->query($sql);
   </center>
 </div>
 <div class="row">
-  <div class="col-lg-12">
+  <div class="col-md-10 col-md-offset-1">
     <div class="well text-center">
       <h1>Create your photo diary with us!</h1>
     </div>
