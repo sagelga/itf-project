@@ -58,7 +58,7 @@ include("$root/Templates/NavigationBar.html");?>
 <div class="row">
   <div class="col-lg-12">
     <div class="well text-center">
-      <h1>Create Your Photo Diary With Us!</h1>
+      <h1>Create your photo diary with us!</h1>
     </div>
   </div>
 </div>
