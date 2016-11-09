@@ -214,4 +214,4 @@ include("$root/Templates/NavigationBar.html");?>
 <hr>
 <br>
 
-<footer><?php include("Templates/FooterBar.html");?></footer>
+<?php $root = realpath($_SERVER["DOCUMENT_ROOT"]); include("$root/Templates/FooterBar.html");?>

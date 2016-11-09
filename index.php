@@ -55,7 +55,7 @@ $result = $conn->query($sql);
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
     <div class="well text-center">
-      <h1>Create your photo diary with us!</h1>
+      <h1>Create your photo diary with us!<br><small>It's free! No credit card required.</small></h1>
     </div>
   </div>
 </div>
