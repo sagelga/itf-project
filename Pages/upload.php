@@ -87,8 +87,6 @@ include("$root/Templates/NavigationBar.html");?>
 	<br>
 	<br>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
-</body>
-</html>
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/FooterBar.html");?>
