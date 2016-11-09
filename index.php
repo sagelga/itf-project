@@ -1,11 +1,47 @@
-.<?php
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "blog";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+} 
+
+$sql = "SELECT * FROM content order by datetime DESC";
+$result = $conn->query($sql);
+
+?>
+
+
+<?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 include("$root/Templates/NavigationBar.html");?>
 
 <center>
 <div class="col-xs-10 col-xs-offset-1">
   <div class="row">
-    <div class="col-xs-4">
+
+        <?php
+
+        if ($result->num_rows > 0) {
+
+          while($row = $result->fetch_assoc()) {
+            echo '<div class="col-xs-4">';
+            echo '<img src="'.$row["content"].'" alt="Raised Image" class="img-rounded img-responsive img-raised">';
+            echo '<p><h5>'.$row["name"].'</h5></p>';
+            echo '</div>';
+          }
+        } 
+
+        $conn->close(); 
+
+        ?>
+
+<!--     <div class="col-xs-4">
       <img src="https://c7.staticflickr.com/9/8411/28311885582_c573e36e69_k.jpg" alt="Raised Image" class="img-rounded img-responsive img-raised">
       <p><h5> Mai Ajirapa</h5></p>
     </div>
@@ -16,7 +52,7 @@ include("$root/Templates/NavigationBar.html");?>
     <div class="col-xs-4">
       <img src="https://c1.staticflickr.com/9/8255/29862705832_76b937ed87_k.jpg" alt="Raised Image" class="img-rounded img-responsive img-raised">
       <p><h5> Phaerw Sataporn</h5></p>
-    </div>
+    </div> -->
   </center>
 </div>
 <div class="row">
