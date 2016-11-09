@@ -13,7 +13,7 @@ include("$root/Templates/NavigationBar.html");?>
             <gcse:search></gcse:search>
 
             <script type="text/javascript">
- var imlocation = "/images";
+ var imlocation = "/images/";
  var currentdate = 0;
  var image_number = 0;
  function ImageArray (n) {
