@@ -1,7 +1,0 @@
-<?php
-$root = realpath($_SERVER["DOCUMENT_ROOT"]);
-include("$root/Templates/NavigationBar.html");?>
-
-<style>
-html{background-image: http://vignette2.wikia.nocookie.net/animaljam/images/e/e6/Tumblr_static_nyan_cat_animation_new.gif/revision/latest?cb=20140409232417;}
-</style>
