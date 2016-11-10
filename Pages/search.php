@@ -32,6 +32,6 @@ include("$root/Templates/NavigationBar.html");?>
 					window.history.back();
 				}
 			</script>
-			<h5 id="link">Search Engine powered by Google Custom Search. May take time to index your query.</h5>
+			<h5 id="link">Powered by Google Custom Search. It may takes a short time to index your query.</h5>
 		</center></div></div>
 
