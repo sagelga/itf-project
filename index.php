@@ -83,19 +83,19 @@ $result = $conn->query($sql);
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="https://flic.kr/p/DToAsm" alt="Awesome Image" width="100%" height="200">
+                    <img src="https://c1.staticflickr.com/2/1625/24866750080_d494791524_k.jpg" alt="Awesome Image" width="100%" height="200">
                     <div class="carousel-caption">
                       <h4><i class="material-icons">location_on</i> Beautiful Pic</h4>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="https://flic.kr/p/CEhpWc" alt="Awesome Image" width="100%" height="200">
+                    <img src="https://c4.staticflickr.com/2/1661/24062072803_3c711176d1_k.jpg" alt="Awesome Image" width="100%" height="200">
                     <div class="carousel-caption">
                       <h4><i class="material-icons">location_on</i> Also some beautiful landscape picture</h4>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="https://flic.kr/p/Ek8rhF" alt="Awesome Image" width="100%" height="200">
+                    <img src="https://c4.staticflickr.com/2/1586/25158021459_84ddef0637_k.jpg" alt="Awesome Image" width="100%" height="200">
                     <div class="carousel-caption">
                       <h4><i class="material-icons">location_on</i> Nyannnnn</h4>
                     </div>

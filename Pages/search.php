@@ -12,8 +12,18 @@ include("$root/Templates/NavigationBar.html");?>
 <h2 id="heading">Search within the website</h2>
 
 <style type="text/css"> .gsc-inline-block,.reset-box-sizing,.reset-box-sizing *,.reset-box-sizing :after,.reset-box-sizing :before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.gsc-input-box,.gsc-input-box-focus,.gsc-input-box-hover,.gsc-search-button,input.gsc-input{box-sizing:content-box;line-height:normal} </style>
-            <script>(function () { var cx = '001930882093453736952:anbyactfo_s';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})(); </script>
-            <gcse:search></gcse:search>
+            <script>
+  (function() {
+    var cx = '001930882093453736952:anbyactfo_s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
 
 <button class="btn btn-success" onclick="goBack()">Back</button>
 
