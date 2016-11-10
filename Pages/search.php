@@ -24,6 +24,4 @@ function goBack() {
 </script>
 <h5 id="link">Search Engine powered by Google Custom Search. May take years to index your query.</h5>
 </center></div></div>
-<?php
-$root = realpath($_SERVER["DOCUMENT_ROOT"]);
-include("$root/Templates/FooterBar.html");?>
+
