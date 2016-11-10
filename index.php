@@ -83,21 +83,21 @@ $result = $conn->query($sql);
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="http://www.theillustrationconference.org/css/img/HP_lead-image_1280x735.jpg" alt="Awesome Image" width="100%" height="200">
+                    <img src="https://flic.kr/p/DToAsm" alt="Awesome Image" width="100%" height="200">
                     <div class="carousel-caption">
-                      <h4><i class="material-icons">location_on</i> Beautiful Illustrations</h4>
+                      <h4><i class="material-icons">location_on</i> Beautiful Pic</h4>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="http://blog.spoongraphics.co.uk/wp-content/uploads/2015/09/vector-illustration.png" alt="Awesome Image" width="100%" height="200">
+                    <img src="https://flic.kr/p/CEhpWc" alt="Awesome Image" width="100%" height="200">
                     <div class="carousel-caption">
-                      <h4><i class="material-icons">location_on</i> Also some beautiful illustrations</h4>
+                      <h4><i class="material-icons">location_on</i> Also some beautiful landscape picture</h4>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="https://static1.squarespace.com/static/520542b0e4b0cc1763c00169/t/521821a4e4b02837fdbd63bb/1377313192307/9.jpg" alt="Awesome Image" width="100%" height="200">
+                    <img src="https://flic.kr/p/Ek8rhF" alt="Awesome Image" width="100%" height="200">
                     <div class="carousel-caption">
-                      <h4><i class="material-icons">location_on</i> Shipwreck on a illustation design</h4>
+                      <h4><i class="material-icons">location_on</i> Nyannnnn</h4>
                     </div>
                   </div>
                 </div>
