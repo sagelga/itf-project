@@ -19,6 +19,11 @@ $result = $conn->query($sql);
 
 <?php $root = realpath($_SERVER["DOCUMENT_ROOT"]); include("$root/Templates/NavigationBar.html");?>
 
+<div class="alert alert-info alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <center>"จะรีบไปไหน! เขียนพังแล้วหนี เท่าไหร่? แล้วทำทำไม วันหลังทำพัง อย่าหนี เข้าใจมั้ย <strong>#กราบเว็บกุ</strong>" - นักเขียนเว็บท่านหนึ่ง ไม่เคยบอกเอาไว้</center>
+</div>
+
 <center>
   <div class="col-xs-10 col-xs-offset-1">
     <div class="row">
