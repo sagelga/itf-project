@@ -32,7 +32,7 @@ include("$root/Templates/NavigationBar.html");?>
 
 				<div class="page-header">
 					<h1 align="center">
-						Upload your files <br><small>while you still can</small>
+						Upload your files <br><small>if you still can</small>
 					</h1>
 				</div>
 
