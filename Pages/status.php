@@ -3,7 +3,7 @@ include("$root/Templates/NavigationBar.html");?>
 
 <br>
 <p align="center"><img src="http://web.sinchronize.com/images/sinchronize.png"></p>
-<h1 align="center">Sinchronize RSS News Room </h1>
+<h1 align="center">Sinchronize Website Status </h1>
 <p align="center">For a slow Internet Connection, do not attempt to load this page any further. We have warned you.</p>
 <br>
 <hr>
@@ -32,19 +32,19 @@ include("$root/Templates/NavigationBar.html");?>
 <div class="col-md-12">
   <!-- Data from DataDog. Imported from AWS -->
   <div class="col-xs-12 col-sm-6 col-md-4">
-    <h3 align="center">AWS EC2 Instances Network Data</h3>
+    <h3 align="center">Website Network I/O</h3>
     <hr>
     <iframe src="https://app.datadoghq.com/graph/embed?token=9b5ac1a58a2c7315bc1a476fab97dd45fce44de5d9ad1fa01331a0b45a116ce2&height=300&width=600&legend=true" width="100%" height="300" frameborder="0" scrolling="False" title="Data is realtime. Powered by DataDog"></iframe>
   </div>
 
   <div class="col-xs-12 col-sm-6 col-md-4">
-    <h3 align="center">AWS EC2 Estimated Costs</h3>
+    <h3 align="center">AWS Estimated Costs</h3>
     <hr>
     <iframe src="https://app.datadoghq.com/graph/embed?token=80a7388c9800eb41c804871ecdae7ce78d4b176f1693c16c66027f94b0ac6a01&height=300&width=600&legend=true" width="100%" height="300" frameborder="0" scrolling="False" title="Data is realtime. Powered by DataDog"></iframe>
   </div>
 
   <div class="col-xs-12 col-sm-6 col-md-4">
-    <h3 align="center">AWS SNS SMS Alert Total</h3>
+    <h3 align="center">AWS Deployment Stats</h3>
     <hr>
     <iframe src="https://app.datadoghq.com/graph/embed?token=d01243655d8555d28d973d17cfbe15eb388f6249d559feb1ce7df76f232ea3a8&height=300&width=600&legend=true" width="100%" height="300" frameborder="0" scrolling="False" title="Data is realtime. Powered by DataDog"></iframe>
     </div>

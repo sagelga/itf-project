@@ -117,5 +117,6 @@ $result = $conn->query($sql);
           </div>
           </div>
           </div>
+          </center>
           <!-- End Carousel Card -->
 <?php $root = realpath($_SERVER["DOCUMENT_ROOT"]); include("$root/Templates/FooterBar.html");?>
