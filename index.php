@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "rds-instance.coenkbxw2vog.ap0southeast-1.rds.amazonaws.com";
+$username = "sagelga";
+$password = "sagelgakmitl";
 $dbname = "blog";
 
 // Create connection
