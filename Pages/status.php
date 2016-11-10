@@ -1,14 +1,16 @@
 <?php $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 include("$root/Templates/NavigationBar.html");?>
 
-<br>
-<p align="center"><img src="http://web.sinchronize.com/images/sinchronize.png"></p>
-<h1 align="center">Sinchronize Website Status </h1>
-<p align="center">For a slow Internet Connection, do not attempt to load this page any further. We have warned you.</p>
-<br>
-<hr>
+<center id="colorful">
+<p><img src="http://web.sinchronize.com/images/sinchronize.png"></p>
+<h1 id="heading">Sinchronize Website Status </h1>
+<p id="title">For a slow Internet Connection, do not attempt to load this page any further. We have warned you.</p>
+</center>
 
 <!-- RSS Feeds -->
+<div class="row">
+<div class="col-xs-10 col-xs-offset-1">
+<div class="row">
 <div class="col-xs-12 col-sm-6 col-md-4">
   <h3 align="center">GitHub Repository</h3>
   <hr>
@@ -49,10 +51,13 @@ include("$root/Templates/NavigationBar.html");?>
     <iframe src="https://app.datadoghq.com/graph/embed?token=d01243655d8555d28d973d17cfbe15eb388f6249d559feb1ce7df76f232ea3a8&height=300&width=600&legend=true" width="100%" height="300" frameborder="0" scrolling="False" title="Data is realtime. Powered by DataDog"></iframe>
     </div>
 </div>
-
+</div>
+</div>
+</div>
 <br>
 <hr>
 <br>
 
-<?php $root = realpath($_SERVER["DOCUMENT_ROOT"]); include("$root/Templates/FooterBar.html");?>
-
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include("$root/Templates/FooterBar.html");?>

@@ -8,53 +8,79 @@ include("$root/Templates/NavigationBar.html");?>
 			<h1 id="frequentcode">This. Is. HTTP. <font color="red" title="/ˈerər/ a mistake. Synnonyms: mistake, inaccuracy, miscalculation, blunder, oversight">Errors.</font></h1>
 			<h5>We direct you to this page to protect you from outside of Apache Server, cause there are many so many bugs out there. Data powered by <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">Wikipedia.</a></h5>
 
-            <style type="text/css"> .gsc-inline-block,.reset-box-sizing,.reset-box-sizing *,.reset-box-sizing :after,.reset-box-sizing :before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.gsc-input-box,.gsc-input-box-focus,.gsc-input-box-hover,.gsc-search-button,input.gsc-input{box-sizing:content-box;line-height:normal} </style>
-            <script>(function () { var cx = '001930882093453736952:anbyactfo_s';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})(); </script>
-            <gcse:search></gcse:search>
+			<style type="text/css"> .gsc-inline-block,.reset-box-sizing,.reset-box-sizing *,.reset-box-sizing :after,.reset-box-sizing :before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.gsc-input-box,.gsc-input-box-focus,.gsc-input-box-hover,.gsc-search-button,input.gsc-input{box-sizing:content-box;line-height:normal} </style>
+			<script>(function () { var cx = '001930882093453736952:anbyactfo_s';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})(); </script>
+			<gcse:search></gcse:search>
 
-            <script type="text/javascript">
- var imlocation = "/images/";
- var currentdate = 0;
- var image_number = 0;
- function ImageArray (n) {
-   this.length = n;
-   for (var i =1; i <= n; i++) {
-     this[i] = ' '
-   }
- }
- image = new ImageArray(7)
- image[0] = 'web_error1.jpg'
- image[1] = 'web_error2.jpg'
- image[2] = 'web_error3.jpg'
- image[3] = 'web_error4.jpg'
- image[4] = 'web_error5.jpg'
- image[5] = 'web_error6.png'
- image[6] = 'web_error7.gif'
- var rand = 60/image.length
- function randomimage() {
- 	currentdate = new Date()
- 	image_number = currentdate.getSeconds()
- 	image_number = Math.floor(image_number/rand)
- 	return(image[image_number])
- }
- document.write("<img alt="Memes from 9GAG" class="img-rounded img-responsive img-raised" title="Come on. Dont you get the jokes?" src='" + imlocation + randomimage()+ "'>");
-</script>
-            <br>
-            <h2 align="center">Frequent Error Code</h2>
-            <div class="col-md-2"></div>
+			<div class="row">
 
-            <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code403" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 403 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code404" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 404 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code408" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 408 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code409" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 409 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code500" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 500 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code502" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 502 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code503" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 503 </a></div>
-           <div class="col-xs-6 col-sm-3 col-md-1"> <a href="http://web.sinchronize.com/Error/ErrorList.html#code504" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 504 </a></div>
-           <div class="col-md-2"></div>
+				<div class="section" id="carousel">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
 
-       </center>
-   </div>
+								<!-- Carousel Card -->
+								<div class="card card-raised card-carousel">
+									<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+										<div class="carousel slide" data-ride="carousel">
+
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+												<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+												<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner">
+												<div class="item active">
+												<img src="/images/web_error1.jpg" alt="Awesome Image" width="75%" height="200">
+													<div class="carousel-caption">
+													</div>
+												</div>
+												<div class="item">
+													<img src="/images/web_error4.jpg" alt="Awesome Image" width="75%" height="200">
+													<div class="carousel-caption">
+													</div>
+												</div>
+												<div class="item">
+													<img src="/images/web_error5.jpeg" alt="Awesome Image" width="75%" height="200">
+													<div class="carousel-caption">
+													</div>
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+												<i class="material-icons">keyboard_arrow_left</i>
+											</a>
+											<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+												<i class="material-icons">keyboard_arrow_right</i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<h2 align="center">Frequent Error Code</h2>
+<div class="row">
+<div class="col-md-10 col-md-offset-1">
+			 <a href="#code403" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 403 </a>
+			 <a href="#code404" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 404 </a>
+			 <a href="#code408" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 408 </a>
+			 <a href="#code409" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 409 </a>
+			 <a href="#code500" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 500 </a>
+			 <a href="#code502" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 502 </a>
+			 <a href="#code503" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 503 </a>
+			 <a href="#code504" class="btn btn-primary btn-round" title="Click me please" data-container="body"> Error 504 </a>
+</div>
+</div>
+		</center>
+	</div>
 </div>
 
 <div class="row">
@@ -63,7 +89,7 @@ include("$root/Templates/NavigationBar.html");?>
 
 		<p align="justify">The 4xx class of status code is intended for situations in which the client seems to have erred. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents should display any included entity to the user.</p>
 
-    <div class="col-xs-12 col-sm-6">
+		<div class="col-xs-12 col-sm-6">
 			<h3 id="code400">400 Bad Request</h3>
 			<p>The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).</p>
 
@@ -154,7 +180,7 @@ include("$root/Templates/NavigationBar.html");?>
 	</div>
 </div>
 
-<center><a href="http://web.sinchronize.com/Error/ErrorList.html#frequentcode" class="btn btn-primary btn-round" title="Click to go back to the top" data-container="body"> Return to top </a></center>
+<center><a href="#frequentcode" class="btn btn-primary btn-round" title="Click to go back to the top" data-container="body"> Return to top </a></center>
 
 <br></br>
 
@@ -207,7 +233,7 @@ include("$root/Templates/NavigationBar.html");?>
 		</div>
 	</div>
 </div>
-<center><a href="http://web.sinchronize.com/Error/ErrorList.html#frequentcode" class="btn btn-primary btn-round" title="Click to go back to the top" data-container="body"> Return to top </a></center>
+<center><a href="#frequentcode" class="btn btn-primary btn-round" title="Click to go back to the top" data-container="body"> Return to top </a></center>
 
 <!-- Footer -->
 <br>
