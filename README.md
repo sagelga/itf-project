@@ -1,3 +1,4 @@
+##Alert: This project will be discontinued. Feel free to look around.
 ## Introduction
 
 This project was made by a small group of colleagues in Faculty of Information Technology KMITL.
