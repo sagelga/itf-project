@@ -25,4 +25,4 @@ We uses Boostrap (v. 3.3.7) and some extensions of CSS on the Internet. Open-sou
 Some of the codes are shared freely by multiple websites. We adapted it, and we make it better.
 Most of the website alignments are inspired by the famous website around the world. And we appreciate that resources.
 
-![alt tag](http://imgur.com/a/W5WzB)
+![alt tag](https://github.com/sagelga/ITF_Project/blob/master/9b1f9569f02.png "Code in Kumamon Colored")
